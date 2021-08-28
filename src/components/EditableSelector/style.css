@@ -1,0 +1,7 @@
+.editable_selector {
+    width: 100%;
+}
+.editable_selector input {
+    font-family: "Lora", serif;
+    font-size: 0.7rem !important;
+}

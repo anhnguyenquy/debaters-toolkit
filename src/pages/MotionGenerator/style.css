@@ -1,0 +1,137 @@
+.motionGenerator {
+    display: flex;
+    max-height: 93vh;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.options {
+    margin-top: 15vh;
+    margin-bottom: 0.5rem;
+}
+
+.option {
+    width: 20rem;
+    margin: 0.2rem;
+    font-size: 0.85rem;
+}
+.option input {
+    font-family: "Lora", serif;
+}
+#keywordBox {
+    border: 1.5px solid #e1e1e1;
+    border-radius: 3px;
+    padding: 0.5rem;
+    height: 2.33rem;
+    font-family: "Lora", serif;
+    text-align: center;
+}
+.generateButton {
+    border-radius: 10px;
+    padding: 0.4rem 0.5rem 0.4rem 0.5rem;
+    font-size: 0.85rem;
+    color: white;
+    background-color: #282a35;
+    font-family: "Source Sans Pro", sans-serif;
+    border: none;
+    font-weight: bolder;
+}
+
+.generateButton:hover {
+    background-color: #000000;
+}
+
+.displayRandomMotion {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.currentMotion {
+    display: flex;
+    font-size: 0.9rem;
+}
+.hasInfoslide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+.noInfoslide {
+    justify-content: center;
+}
+.motionInfo {
+    margin: 1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+@media only screen and (max-width: 379px) {
+    .option {
+        width: 18rem;
+        font-size: 0.75rem;
+    }
+    .motionInfo {
+        font-size: 0.75rem !important;
+        padding: 1rem;
+    }
+    .loadingRandomMotionMessage {
+        font-size: 0.75rem !important;
+    }
+    .hasInfoslide {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 425px) and (min-width: 380px) {
+    .currentMotion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+    .motionInfo {
+        width: 100%;
+        padding: 1rem;
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+    .hasInfoslide {
+        width: 100%;
+    }
+    .option {
+        font-size: 0.9rem;
+    }
+    .generateButton {
+        font-size: 0.9rem;
+        padding: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+    .displayRandomMotion {
+        margin-top: 1rem;
+    }
+    .options {
+        margin-top: 4vh;
+    }
+    .option {
+        width: 21rem;
+        font-size: 0.9rem;
+    }
+    .generateButton {
+        font-size: 0.9rem;
+    }
+    .motionInfo {
+        margin: 1rem;
+        width: 95%;
+        display: flex;
+        align-items: center;
+        font-size: 0.9rem;
+    }
+    .hasInfoslide {
+        width: 90%;
+    }
+}

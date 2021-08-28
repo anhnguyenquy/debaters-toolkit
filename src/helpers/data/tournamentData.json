@@ -1,0 +1,87 @@
+[
+    {
+        "name": "HKPDS",   
+        "year": "2020",
+        "format": "BP"
+    },
+    {
+        "name": "AODC",   
+        "year": "2020",
+        "format": "BP"
+    },
+    {
+        "name": "6th SIDO",   
+        "year": "2020",
+        "format": "BP"
+    },
+    {
+        "name": "Trường Teen",   
+        "year": "2020",
+        "format": ""
+    },
+    {
+        "name": "CDO (CNH Debat Open)",   
+        "year": "2020",
+        "format": "WSDC"
+    },
+    {
+        "name": "Spring KNC",   
+        "year": "2020",
+        "format": "AP"
+    },
+    {
+        "name": "CODO (Cogic Debate Online)",   
+        "year": "2020",
+        "format": "AP"
+    },
+    {
+        "name": "HDT",   
+        "year": "2020",
+        "format": "WSDC"
+    },
+    {
+        "name": "SDO",   
+        "year": "2020",
+        "format": "BP"
+    },
+    {
+        "name": "HKSDO",   
+        "year": "2020",
+        "format": "WSDC"
+    },
+    {
+        "name": "DDO",   
+        "year": "2020",
+        "format": "AP"
+    },
+    {
+        "name": "VNDO",   
+        "year": "2020",
+        "format": "BP"
+    },
+    {
+        "name": "NTDO (Nghe Tinh Debate Open)",   
+        "year": "2020",
+        "format": "WSDC"
+    },
+    {
+        "name": "VBC",   
+        "year": "2020",
+        "format": "BP"
+    },
+    {
+        "name": "Pre VBC",   
+        "year": "2021",
+        "format": "BP"
+    },
+    {
+        "name": "Online WSDC",   
+        "year": "2020",
+        "format": "WSDC"
+    },
+    {
+        "name": "6th Oldham Cup",   
+        "year": "2020",
+        "format": "WSDC"
+    }
+]

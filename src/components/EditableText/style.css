@@ -1,0 +1,13 @@
+.editable_text {
+    border: 1px solid transparent;
+    outline: none;
+    width: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-family: "Lora", serif;
+}
+/* .editable_text:focus {
+    border: 1px solid black;
+    outline: none;
+} */

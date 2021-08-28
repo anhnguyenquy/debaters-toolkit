@@ -1,0 +1,156 @@
+.pendingRequests {
+    margin-top: 1rem;
+    width: 100%;
+    max-width: 100vw;
+    font-family: "Lora", serif;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
+}
+
+.pendingMotionRequestTitle {
+    width: 100%;
+    padding-left: 5rem;
+}
+
+.requestsTableContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.loadedRequestsTable {
+    width: 98%;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+}
+
+.requestsTableHeaderRow {
+    display: flex;
+    width: 100%;
+}
+
+.requestsTableHeader {
+    margin: 0;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.emptyRequestsTableHeaderCell {
+    border: 1px solid black;
+}
+
+.requestTableRow {
+    display: flex;
+    font-size: 0.7rem;
+}
+
+.requestTableCell {
+    margin: 0;
+    border: 1px solid black;
+    padding: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.actionIcons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.actionIcons button {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+.actionIcon {
+    margin: 0.5rem;
+}
+
+.tick {
+    color: #abe491;
+}
+
+.cross {
+    color: #e49191;
+}
+
+.tick:hover {
+    color: rgb(0, 173, 0);
+}
+
+.cross:hover {
+    color: rgb(167, 0, 0);
+}
+
+@media only screen and (max-width: 425px) {
+    .pendingMotionRequestTitle {
+        padding-left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+    .requestsTableHeaderRow {}
+    .requestsTableHeader {
+        font-size: 0.6rem;
+    }
+    .loadedRequestsTable {
+        margin: 0;
+        width: 99%;
+    }
+    .thirdColumnSelector {
+        width: 100%;
+    }
+    .requestTableRow {
+        font-size: 0.6rem;
+    }
+    .requestTableCell {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+    .actionIcons {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+    .pendingMotionRequestTitle {
+        margin-bottom: 1rem;
+    }
+    .requestsTableHeaderRow {}
+    .requestsTableHeader {
+        font-size: 0.9rem;
+    }
+    .loadedRequestsTable {
+        margin: 0;
+        width: 95%;
+    }
+    .thirdColumnSelector {
+        width: 100%;
+    }
+    .requestTableCell {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .actionIcons {
+        flex-direction: column;
+    }
+}

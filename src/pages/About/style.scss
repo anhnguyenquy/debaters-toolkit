@@ -1,0 +1,168 @@
+.about {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #535353;
+    height: 93vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .topStuffs {
+        height: 83vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        .aboutHeader {
+            color: white;
+            font-size: 2rem;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+        }
+        .contributors {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            .aboutSubHeaderInContributors {
+                color: white;
+                margin: 0.25rem;
+                width: 100%;
+                #specialATag {
+                    margin-right: 0.25rem;
+                }
+                a {
+                    text-decoration: none;
+                    span {
+                        color: white;
+                        margin-left: 0.25rem;
+                        text-decoration: underline;
+                    }
+                    span:hover {
+                        color: #4caf50;
+                    }
+                }
+            }
+        }
+        .aboutSubHeader {
+            color: white;
+            margin: 0.5rem;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            #specialATag {
+                margin-right: 0.25rem;
+            }
+            a {
+                text-decoration: none;
+                span {
+                    color: white;
+                    margin-left: 0.25rem;
+                    text-decoration: underline;
+                }
+                span:hover {
+                    color: #4caf50;
+                }
+            }
+        }
+        button {
+            background-color: #282a35;
+            border: 1px solid transparent;
+            border-radius: 5px;
+            padding: 0.5rem;
+            i {
+                color: white;
+                font-size: 2rem;
+            }
+        }
+        button:hover {
+            background-color: white;
+            i {
+                color: black;
+            }
+        }
+        .icons {
+            width: 13rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+    .bottomStuffs {
+        height: 10vh;
+        margin-top: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .aboutSubHeader {
+            color: white;
+            margin: 0.25rem;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            a {
+                text-decoration: none;
+                span {
+                    color: white;
+                    margin-left: 0.25rem;
+                    text-decoration: underline;
+                }
+                span:hover {
+                    color: #4caf50;
+                }
+            }
+        }
+        // position: relative;
+        // top: 5rem;
+    }
+}
+@media only screen and (max-width: 379px) {
+    .about {
+        .topStuffs {
+            width: 95%;
+            button {
+                padding: 0.2rem;
+                i {
+                    font-size: 1rem;
+                }
+            }
+            .contributors {
+                font-size: 0.8rem;
+            }
+            .aboutSubHeader {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                text-align: center;
+                font-size: 0.8rem;
+                margin: 0.25rem;
+            }
+        }
+        .bottomStuffs {
+            font-size: 0.8rem;
+        }
+    }
+}
+@media only screen and (max-width: 425px) and (min-width: 380px) {
+    .about {
+        .topStuffs {
+            button {
+                margin-top: 0.5rem;
+                padding: 0.3rem;
+            }
+            .contributors {
+                font-size: 0.525rem;
+            }
+            .aboutSubHeader {
+                font-size: 0.525rem;
+                margin: 0.25rem;
+            }
+        }
+        .bottomStuffs {
+            margin-bottom: 3rem;
+        }
+    }
+}
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+}

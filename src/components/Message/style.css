@@ -1,0 +1,31 @@
+.successLineOne {
+    color: #abe491;
+}
+.successLineTwo {
+    color: #b9b9b9;
+    font-size: 0.8rem;
+}
+.failureLineOne {
+    color: #e49191;
+}
+.failureLineTwo {
+    color: #b9b9b9;
+    font-size: 0.8rem;
+}
+.message {
+    font-weight: bolder;
+    font-family: "Source Sans Pro", sans-serif;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+#successIcon {
+    color: #abe491;
+}
+#failureIcon {
+    color: #e49191;
+}
+.statusIcon {
+    margin-right: 0.6rem;
+}

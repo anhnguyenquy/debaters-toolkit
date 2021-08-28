@@ -1,0 +1,13 @@
+.editable_text_area {
+    border: 1px solid transparent;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    font-family: "Lora", serif;
+    resize: none;
+    overflow: hidden;
+}
+/* .editable_text_area:focus {
+    border: 1px solid black;
+    outline: none;
+} */

@@ -1,0 +1,219 @@
+.loadMotions {
+    width: 100%;
+    font-family: "Lora", serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.loadedMotionsHeaderContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.motionsListTitle {
+    padding-left: 5rem;
+}
+
+#fetchMotionsButton {
+    background-color: #282a35;
+    color: white;
+    border: none;
+    font-weight: bolder;
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin-left: 2rem;
+}
+
+#fetchMotionsButton:hover {
+    background-color: #000000;
+}
+
+.filterMotions {
+    display: flex;
+    margin-left: 6rem;
+    flex-direction: column;
+}
+
+.filterMotions input {
+    font-family: "Lora", serif;
+    padding: 0.3rem;
+    padding-left: 0.6rem;
+    border-radius: 5px;
+    border: 1.5px solid #e1e1e1;
+}
+
+.motionFilterItem {
+    width: 25rem;
+    margin: 0.3rem;
+    font-size: 0.9rem;
+}
+
+.motionFilterItemBox {
+    height: 2.33rem;
+}
+/* Chrome, Safari, Edge, Opera */
+.inputMax::-webkit-outer-spin-button,
+.inputMax::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.inputMax[type=number] {
+  -moz-appearance: textfield;
+}
+.displayExistingMotions {
+    padding-top: 1rem;
+}
+
+.loadingMotionMessage {
+    margin-left: 6rem;
+}
+.downloadMotionsJSONButtonContainer {
+    width: 100%;
+    display: flex;
+}
+.downloadMotionsJSON {
+    background-color: #282a35;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+    box-sizing: border-box;
+    margin-top: 1rem;
+    margin-left: 6rem;
+}
+.downloadMotionsJSON:hover {
+    background-color: #000000;
+}
+.motionsTableContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.motionScriptContainer {
+    width: 100%;
+    display: flex;
+}
+.runMotionScript {
+    background-color: #282a35;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+    box-sizing: border-box;
+    margin-top: 1rem;
+    margin-left: 6rem;
+}
+.runMotionScript:hover {
+    background-color: #000000;
+}
+.loadedMotionsTable {
+    width: 97%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-bottom: 2rem;
+}
+
+.motionsTableHeaderRow {
+    display: flex;
+}
+
+.motionsTableHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border: 1px solid black;
+}
+
+.emptyMotionsTableHeaderCell {
+    border: 1px solid black;
+}
+
+.motionTableRow {
+    display: flex;
+}
+
+.motionTableCell {
+    margin: 0;
+    border: 1px solid black;
+    /* padding: 0.5rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fifthColumnSelector {
+    width: 100%;
+}
+.motionTopicSelector {
+    font-size: 0.65rem;
+}
+.removeMotionButton {
+    padding: 0;
+    color: #e49191;
+    background-color: transparent;
+    border: none;
+}
+
+.removeMotionButton:hover {
+    color: rgb(167, 0, 0);
+}
+
+.deleteMotionCell {
+    width: 4%;
+}
+
+@media only screen and (max-width: 425px) {
+    .loadMotionsHeaderContainer {
+        padding-left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .filterMotions {
+        margin-left: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .displayExistingMotions {
+        width: 100%;
+    }
+    .loadingMotionMessage {
+        width: 100%;
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    .loadedMotionsTable {
+        width: 97%;
+    }
+    .motionsTableHeader {
+        font-size: 0.7rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.2rem;
+    }
+    .motionTableCell {
+        /* font-size: 0.5rem; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* padding: 0.4rem; */
+    }
+    .removeMotionButton i {
+        font-size: 0.7rem;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+}

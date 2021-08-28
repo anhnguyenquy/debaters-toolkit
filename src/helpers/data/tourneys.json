@@ -1,0 +1,4422 @@
+[
+    {
+        "name": "Debate for Donation Open",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Helsinki Open",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Imitation Cup",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "IUBDC Rational Wrangle",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "BDC Pre-Worlds",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Karachi Debate Open",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Tilbury House Online Ope",
+        "format": "",
+        "year": " 2.0"
+    },
+    {
+        "name": "Pop Culture Grand Prix",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Yale NUS Pro Ams",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "The Grand Spar September",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Argumentum Open",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "MonDO",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "SEC Schools Championship",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Zagreb Random Pro Am",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Alternate Pre-ABP",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "WSDC Practice Spars",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Victoria's Cup",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Cross-DebSoc Pre-ABP Tournament",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "IBA DU Nations League",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "East Coast Asians",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Feminism Open",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "MIDP Round Robin",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "The Novice Debate",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Wilderness Open",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Link Bate Championship III",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Princeton Round Robin",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Westminster Debating Championships",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "DSDC Coherence",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "The Grand Spar August",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Astana EUDC",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Taylor's Debate Open",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Indian Womxn's Debating Championship",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "KCL Online Open",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Womxn and Gender Minorities Online Debate Open",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Access Debate Tournament",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "An Najah Arabic Novice Online Debates",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "The Debate Open",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Doxbridge 2: Euros Bungaloo",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Monash Australs",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Borneo Online Debate Championship",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "CP Nationals",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "ASDO",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "DGBDS Mace",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "St Petersburg Online Open",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Suzhou Debate Open",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "The Grand Spar July",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Lockdown.Exe Debate League",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Imperial IV",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Restricted Mara Open",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Saskatoon WSDC",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "UBC Fundraiser Open",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Astana Debate Union Online",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Evodio Online Open",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Hong Kong Pro Ams",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Sarawak Schools Online Debating Championship",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "India Debate Open AP",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Cyberpunk IV",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Gwalia Open",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Macquarie Open",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "NTU Debate Online Open",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "BRAC Genders Online",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Sumatra Online Debate Open",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Trinity Online Open",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Cross Deb Soc Practice Tournament Ed. 1",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "The Grand Spar June",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Circuit Breaker Debate Open",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Tilbury House Online Open",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Whippersnappa Pre-Australs",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Eastern Online IV",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Taiwan Online Debate Open",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Astana Debate Union Open",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "VITDT Round Robin",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Deree Invitational LIX",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Parassat Open",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Ullens Online",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Asia Queer Open",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Doxbridge Online Open",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Jurassic IV",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "The Grand Spar May",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Axiom Debate Open",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Central European Cyberspace Open",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Asia E-Debate Challenge",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Cinnamon Scroll",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "EUDC Challenge IV",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Berlin Online IV",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Lord Discup's Cup",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Erasmus Rotterdam Open",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Downpour Open",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Commonwealth Debating Championship",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Zagreb Open",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Manchester IV",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "LUMS IV",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Northams",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Bishop Anthony Lobo Championship",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "Thailand WUDC",
+        "format": "",
+        "year": "2020"
+    },
+    {
+        "name": "UFMG IV",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "PAUDC Akofena",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "Seattle IV",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "HWS Round Robin",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "HWS Round Robin",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "Prague Open",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "All-Nigeria Universities Debate Championship",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "UBC IV",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "New Zealand BP Debating Championships",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "Rocky Mountain Championships",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "Ljubljana IV",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "Hart House IV",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "Bard IV",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "The Karachi Cup",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "WW III",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "Joynt Scroll",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "The Lyceum Debating Championship",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "Feminism Open",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "Athens EUDC",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "European Round Robin",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "DU IV",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "Poznan Open",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "Tilbury House Cologne Open",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "Vienna IV",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "Cambridge IV",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "Easters",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "Cracow Open",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "USUDC",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "America's Cup",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "Deree Invitational LVII",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "LUMS Asians' Debate Open",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "Estonia Debate Open",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "Barcelona Debating Open",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "Muslim Interscholastic Tournament",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "Pan American Debating Championships",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "Colgate Open",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "NAW*DC",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "Budapest Open",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "Empire Debates",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "Munich Research Open",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "Leiden Open",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "Manchester IV",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "GWU IV / US Universities Debate Eastern Championship",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "PEP IV",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "FLTRP Training Beijing Debate Open",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "Cornell Novice Nationals 2019 & Cornell IV",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "UDP Open",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "Berkeley IV",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "The PES Debate Open",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "Northams",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "Western Washington University",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "Brad Smith Debate Tournament",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "York IV",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "Campus-Debatte Wien",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "Cape Town WUDC",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "Birmingham IV",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "Riga IV",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "PAUDC Tanzania",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "Brandeis IV",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "Seattle IV",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "Cambridge IV",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "UCLA IV",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "Oxford IV",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "Huber Debates",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "Penguin Invitational",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "IUT Professionals",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "New Zealand BP Debating Championships",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "Tilbury House Cologne Open",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "Yale IV",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "Sofia Open",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "Rocky Mountain IV",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "Joensuu Mini",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "Roosevelt Open",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "GV Debate",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "Hart House Inter-Varsity",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "China BP",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "Denver IV",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "HWS IV",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "Mehran Debating Championship",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "All-Nigeria Universities Debating Championship (ANUDC), University of Ilorin",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "McGill Central Novice Championship",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "Cedar College Debating Championship",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "Jewell Debate Tournament",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "Israel's English Cup",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "Joynt Scroll",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "The Nixor College Debating Championship",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "Joynt Scroll (NZ Prepared Debating Tournament)",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "Macau Tournament of Champions BP IV",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "Novi Sad EUDC",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "Split Open",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "KCL Open",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "Novi Sad Open",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "1st Copa Leones de Debate (CLD) at University of Guadalajara",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "MDX Open",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "Nottingham Trent Open",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "Athens Open",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "Maynooth Open",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "NLUO BPD",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "NZ Easters",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "KUET IV",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "Shanghai International Debate Open",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "The Beacon Debating Club",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "Empire Debates",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "North America Womxn's and Gender Minorities' Debate Championship",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "Pan Pacific Debate Championship",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "US Western Regional Championship",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "Western Regionals",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "Manchester IV",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "USC IV",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "UBC IV",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "York IV",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "Inner Temple IV",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "Northams",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "Mexico WUDC",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "Mexican Open",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "UNESCO Hong Kong SDG Debating Tournament",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "Leiden Novices' Tournament",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "Seattle IV",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "Sheffield IV",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "Lund IV",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "Newcastle IV",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "Munich Open",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "NEAO",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "Cambridge IV",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "BDC Pro Ams",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "FinEst 100 Open",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "Oxford IV",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "Durham IV",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "Huber Debates",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "Penguin Invitational at Dominican University",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "KCL IV",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "Strathclyde President's Cup",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "Denver IV",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "Olimpia di Debate",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "Hart House IV",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "SDSU",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "HWS North American Universities Debating Championsip",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "Helsinki Freshers' ProAm",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "IIT Bombay IV",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "Brad Smith Debate Tournament",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "La Salle IV",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "Hollatz Debates",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "Guangdong Debate Challenge",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "Tallin EUDC",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "World Schools Debating Championship,",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "Newcastle Mixed Doubles",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "Trinity Open",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "International Competition for Young Debaters, Finals Day,",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "NZ Easters",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "HWS Round Robin",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "PEP IV",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "Colgate Open",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "Empire Debates",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "Western Regionals",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "Tricity Mini",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "North American Women & Gender Minorities Debating Championship",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "KL Open Challenge",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "Pan-American Universities Debating Championship",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "Budapest Open",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "Riga Mini, 2nd edition",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "Leiden Open",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "GWU Eastern Championships",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "cornell novice nationals and tournament of love",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "Galway Open",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "Riga mini",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "Shahjiwana International Debating IV",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "Trinity IV",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "Dutch WUDC",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "Birmingham IV",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Riga IV",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Sheffield IV",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Seattle IV",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Moscow Open",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Cork IV",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Tilbury House IV",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "CMS Cambridge Women's Open",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "New Zealand BP Debating Championships",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Cambridge IV",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Oxford IV",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Chittagong University IV",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Indian Schools Debating Society Chennai Leagues,",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Yale IV",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Huber Debates",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "JADE College Cup",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Belgrade Open",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Munich Open",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "The QUB Open",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Helsinki Mini",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "SOAS IV",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Trivium Tournament",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "North American Universities Debating Championships",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Roosevelt Open",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Imperial Novices",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Edinburgh Cup",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Imperial Open",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Hart House IV",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Riga Pro-Am",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "UCL President’s Cup",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "UCD IV",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "UCD Novice",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "ISIC",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Aztec Invitational",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "HWS IV",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Northeast Regional Opener 2016 Brad Smith Debate Tournament",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Red Sea Open",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Istanbul Meridyen Debating Academy",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Warsaw EUDC",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "SSE Riga Debate Academy",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Newcastle Mixed Doubles",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Bristol Open",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Dutch Mace 2016 (The Netherlands)",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Helsinki Open",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "The Baillie Gifford Oxford Women's Open",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Maastricht Open",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Cardiff Open",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "GUU Womens",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "GUU Ancients",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "HWS Round Robin",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "NZ Easters",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Durham Australs",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Canadian BP Nationals",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Erasmus Rotterdam Open",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Liverpool IV",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "UCL Clifford Chance IV",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Budapest Open",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Surrey IV",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Lancaster IV",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "UL Open",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Leiden Open",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "North American Women's (@ Hart House)",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Nottingham Open",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "The Queen’s Annual TRUST IV",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Kyiv Open",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Manchester IV",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "LSE Open",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Swansea Open",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "ICYD- Oxford Round",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "John Smith Memorial Mace - English Leg",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "John Smith Memorial Mace - Scottish Finals",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Warwick IV",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Trinity IV",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Trinity Women's Open",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Queen Mary IV",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "University of Latvia Open",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "York IV",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Inner Temple IV",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "NorthAms",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "London Pro-Am",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Brandeis IV",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Thessaloniki WUDC",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Birmingham IV",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "SSE Riga IV",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "Brandeis IV",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "Canadian British Parliamentary Championships (@ York University)",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "Cambridge Women's Open",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "Brad Smith Debate Tournament",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "JADE College Cup",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "Cambridge IV",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "McMaster Pro-Am",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "Birmingham ESL Novice Mini",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "SSE Practice Tournament",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "Guindon Cup (University of Ottawa)",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "Oxford IV",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "Westminster Open",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "Tilbury House IV",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "New Zealand BP Debating Championships",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "Chancellor's Cup (Queen's University)",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "HWS Fall Classic",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "SOAS IV",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "KCL IV",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "Hart House IV",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "Claremont",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "UCD IV",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "Yale IV",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "McGill Novice",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "Joynt Scroll",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "Athens Open",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "Vienna EUDC",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "Ljubljana IV",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "Rijeka Open",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "SOAS Open",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "UCT 150th Year Open",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "EuroDebate",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "BBU Open",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "Tallinn Tech Open",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "English Open",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "SSE Riga Debate Academy",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "Tech Open",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "Tech Open",
+        "format": "",
+        "year": "2016"
+    },
+    {
+        "name": "Tech Open",
+        "format": "",
+        "year": "2017"
+    },
+    {
+        "name": "Tech Open",
+        "format": "",
+        "year": "2018"
+    },
+    {
+        "name": "Tech Open",
+        "format": "",
+        "year": "2019"
+    },
+    {
+        "name": "BRAC Bank Great Gender Debates",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "Drishty English Debate Championships",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "Israeli Open Championship",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "Sabanci University International Debate Open",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "Helsinki Open",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "Cape Town Open",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "Vidzeme Open",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "HWS Round Robin",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "Estonian Open",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "Cardiff Open",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "Copenhagen Open",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "National Maidens",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "NAUDC (@ Ithaca College)",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "Cardiff Schools",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "Leiden Open",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "DWF Manchester IV",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "Norton Rose Fulbright Warwick IV",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "AIB Trinity IV",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "NorthAms (@ NYU)",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "Rotterdam Open",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "Malaysia WUDC",
+        "format": "",
+        "year": "2015"
+    },
+    {
+        "name": "Birmingham IV",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "SSE Riga IV",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Westminster Open",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Canadian British Parliamentary Championships (@ Western University)",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Moscow Open",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "McMaster Pro-Am",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Cambridge Women’s",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Yorkshire Novice Cup",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Cicero Debattoernooi",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Guindon Cup (University of Ottawa)",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Cambridge IV",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Oxford IV",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Durham Open",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Skopje Open",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Tilbury House",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Chancellor's Cup (Queen's University)",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "New Zealand BP Debating Championships",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Thessaloniki Open",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "SDA Novices",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Bogwall (SSDC Novices)",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Belgrade Open",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "SOAS IV",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Strathclyde Cup",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Roosevelt Open",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Turku Open",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Hart House IV",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "UCL President’s Cup",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Yale IV",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Edinburgh Cup",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "McGill Novice",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Joynt Scroll",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Zagreb EUDC",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Ljubljana IV",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Rijeka Open",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Westminster IV",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Bielefeld Religion debate tournament",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Imperial IV",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "NCH International Relations Open",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Campeonato Mundial Universitario de Debate en Español (CMUDE)",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Boddencup",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Earlsfort Open",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "HeidelBÄM",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Bulgaria Open",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "BBU Open",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Methusalem Cup",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Heart of Europe BP",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Eloquentiatoernooi (Eloquence tournament)",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Jena Frauenturnier (Women’s tournament)",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Newcastle Mixed Doubles Open",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Monroe Cup",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Bristol Open",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Deutsche Debattiermeisterschaft (German Language Debating Championships)",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Tilbury House Novice",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Riga Debate Academy",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "TechOpen",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Neckarwiesen Cup",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Trivium Debattoernooi",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Helsinki Open",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "French Language World Championships Debating",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Frishlingscup",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Kalliope Debattoernooi",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Cape Town Open",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "IDEA League of Young Voters European Cup",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Copenhagen Open",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Zeit Debatte Mainz",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Hull Open",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "North-East German Regional Championships",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "South German Regional Championships",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "VUAS Debate tournament",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "West German Regional Championships",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Paris Open",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Aberdeen Open",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "HSE Open",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Kent IV",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Berlin IV",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Estonian Open",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "SSE Riga Practice Tournament",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Aberystwyth Open",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "NK Debatteren (Dutch National Championships)",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Northumbria Open",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "HWS Round Robin",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Paris V French Debating Association Tournament final",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Cardiff Open",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Copenhagen Mini Open",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Heriott Watt Open",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "National Maiden’s",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Zeit Debatte Wien",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Southampton Open",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Exeter Open",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Liverpool IV",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "NK Beleidsdebatteren (Dutch Policy Debate Championships)",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Arandjelovac Open",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "DCU Open",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Royal Holloway Open",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Bucharest Cup",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Reedhoven Cup",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "UCL IV",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "NAUDC (@ HWS College)",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Paris V French Debating Association Tournament Open_Semis",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Pre-Pristina Open",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Leeds Open",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Mainzer Debütanten Cup",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "UL Open",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Vienna IV",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Glasgow Women’s",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Glasgow Ancients",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Helsinki Mini",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Marburger Geschichte Turnier (History Tournament)",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Nottingham Open",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Tallaight IV",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Budapest Open",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Irish Times Final",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Leubke Cup (@ Brock University)",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Leiden Open",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Manchester IV",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Tornadu",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Bonapartiaans Debattoernooi",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Irish Times Debates Open_Semis",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "LSE Open",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Irish National Law Debates",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "North American Women's (@ McGill University)",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Reading No-Notes Open",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Dutch Mace",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "John Smith Memorial Mace Scotland",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Lancaster IV",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "NorthAms (@ Carleton University)",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Warwick IV",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Brabants Debattoernooi",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "York IV",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Trinity IV",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Paris V",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Irish Times Debates Round 2",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "London Pro-Am IV",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Nottingham Trent Open",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Zeit Debatte Dresden",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Brandeis IV",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Chennai WUDC",
+        "format": "",
+        "year": "2014"
+    },
+    {
+        "name": "Decemberac (beginners tournament)",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Birmingham IV",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Jerusalem Open",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Tournament without a name (Macedonian-Greek exchange tournament)",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "KCL IV",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Leiden Novice Tournament",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Streitkultur Cup",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "BGU IV",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Tilbury House IV",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "John Smith Memorial Mace Welsh leg",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Sheffield IV",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Tournament of Champions",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Brandeis IV",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Centrale IV",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Lund IV",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Moscow Open",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Warsaw Open",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "English Cup",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Bristol ProAM",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Newcastle IV",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Nikolausturnier",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Schroeter Cup",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "SSE Riga IV",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Cork IV",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "IDAS Tournament",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Iron Man tournament",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "UCU Open",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Cork Invitational",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Cicero Toernooi",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "John Smith Memorial Mace",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Tübingen Herbst Debatten",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Yorkshire Novices",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Zeit Debatte Frankfurt",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Canadian BP Championships (@ McMaster University)",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Schwarzwald Cup",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Bogwall",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Cambridge IV",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Oxford IV",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "UK Debate Challenge",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Debatijada Open",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Guindon Cup (University of Ottawa)",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Vienna Freshers",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Durham IV",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Welsh Novices",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Chancellor's Cup (Queen's University)",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "New Zealand BP Debating Championships",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "SDA Open",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "UBC IV",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "SDA Novice Competition",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Dutch Masters",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Imperial Open",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Middle Man tournament",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "NAMDA Novice Cup",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Strathclyde Presidents Cup",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "McMaster Pro-Am",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Turku Open",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "UCD Vice President’s Cup",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "UCD Novice Cup",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Simpsons Open",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "SOAS IV",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Open de Debates de Lisboa",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "US National Open",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "EBS Open",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Roosevelt Academy Open",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Yale IV",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Edinburgh Cup",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Gutenberg Cup",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "McGill Novice",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "DDG Masters Cup",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Red Sea Open",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Joynt Scroll",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Commonwealth Open (Australs style)",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Manchester EUDC",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "DAPDI",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "SOAS invitational",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "SOAS Open",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Heart of Europe British Parliamentary Debate track",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Bodden Cup",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Patras Open",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Campeonato Mundial Universitario de Debate en Español (CMUDE or Worlds in Spanish)",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Earlsfort Open",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Frischlingscup",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Imperial No Notes Open",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "English Open",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Mix Team (pro-am tournament)",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "ULU Westminster IV",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Essex IV",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Vienna Mini",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Elbe Open",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Berlin IV",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "GDPPC Open",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Bristol Open",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Riga Debate Academy",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Deutschsprachige Debattiermeisterschaft",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "History Tournament",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Brüder Grimm Cup",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Belgrade Open",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Kalliope Debattoernooi",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Denny Crane",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Oxford Women’s Open",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Stockholm IV",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Zeit Debatte Aachen",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Kyiv Open",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Cambridge Invitational",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Jacobs Open",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Open de Minho",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Split Open",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "SdDUP Debate changing Europe round 1",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Dutch National Championships",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "German Regional Championships North-East",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "German Regional Championships South (Austria and Switzerland)",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "German Regional Championships West",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Hull Open",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "John Smith Memorial Mace International Final",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Nordic Debating Championships",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Coimbra Debate changing Europe round",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "UTAD Debate changing Europe round",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "HSE Open",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Estonian Open",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Potsdam Puls Punk",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Transatlantic Debating Championships",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Paris Open",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "DCU Open",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "HWS Round Robin",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Heriot Watt Open",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Kent IV",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "St Petersburg Debating Open",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "French Debating Association Final",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Estonian BP Championships",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Exeter Open",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Mykolas Romeris University (MRU) IV",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Irish National Maidens",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Leiden Open",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Zalgiris Cup",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Zeit Debatte Marburg",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Feminism and Gender Tournament",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Royal Holloway Open",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Berlin-Brandenburgischen-Meisterschaften (Championships)",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Bucharest Universities Debating Cup",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Czech and Slovak Championships",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "John Smith Memorial Irish Mace Open_Final",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "UCL IV",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "VUAS Debate Tournament",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "NAUDC (also Hart House IV)",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Leeds Open",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Southampton Open",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Vienna IV",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "French Debating Association Open_Semiss",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "John Smith Memorial Mace (Ireland Open_Semis)",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Nottingham Open",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Budapest Open",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Glasgow Ancients",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "UL Open",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Manchester IV",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Polish Parliamentary Debating Championships",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Edinburgh IV",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "IDEA-DTU",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "LSE Open",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "The Galway Open (Irish National Law Debates)",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Österreichischen Debattier Meisterschaft (Austrian Debate Championships)",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Sciences Po Open",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Warwick IV",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Inner Temple IV",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Irish Times Open_Semis",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Beginner Tournament Mainz (DCJG)",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Rotterdam BP toernooi",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "York IV",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Rotterdam BP Toernooi",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Trinity IV",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "French Debating Association Tournament",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Kingsmill Moore Invitational",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Regents’ IV",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Nottingham Trent IV",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Zeit Debatte Hamburg",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "Berlin WUDC",
+        "format": "",
+        "year": "2013"
+    },
+    {
+        "name": "IDEA European Cup",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Birmingham IV",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Centrale Open",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "The English Cup",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Baden-Württemberg",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Lancaster IV",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "SSE Riga & LMT IV",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Bristol IV",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Tilbury House IV",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Irish Times Debates",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "King’s College IV",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Nikolausturnier",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "BGU IV",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Cork IV",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Moscow Open",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Münster Ironman",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "IDEA Debate@Europe final event",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Cicero Debattoernooi",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "John Smith Memorial Mace England Leg",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "IDAS tournament",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Lund Debate Challenge",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Zeit Debatte Tübingen",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "John Smith Memorial Mace",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Iasi BP Open",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Cambridge IV",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Brno Open",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "ESCP Debating Open",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Open de Debates da Sociedade de Debates da Universidade de Coimbra (SDUC)",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Vienna Freshers",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Oxford IV",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "UK Debate Challenge",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Durham IV",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Welsh Novices",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Newcastle IV",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "UCU Open",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Imperial Open",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Namda Novices",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "UCD Vice-President’s Cup",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "UCD Novice IV",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Bogwall (SSDC Novices)",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Dutch Debate Masters",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Gutenberg Cup",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "SOAS IV",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Alternative Open",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "UCL President’s Cup",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Edinburgh Cup",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Open de Lisboa",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "DDG Master’s Cup",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Roosevelt Academy Open (RA Open)",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Red Sea Open",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "SSE Riga IV",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Belgrade EUDC",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Mediterranean Universities Debating Championships (Koc University)",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "IDC Porto Debate Camp and Open",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "SOAS Open",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Boddencup",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Imperial Summer IV",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Berlin IV",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Israeli Nationals",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "German Language Championships",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Iron Man BP Tournament",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Bruder Grimm Cup",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Dutch Mace",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Split Union Open",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "SSE Riga Debate Academy",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "“Denny Crane” Faculty of Political Science",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Zeit Debatte Munster",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Zionism Begin Tournament",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "International John Smith Memorial Mace Final",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Saggsn- Masders",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Israeli Open",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Mitteldeutschen Regionalmeisterschaft",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "NK Debatteren",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Norddeutschen Regionalmeisterschaft",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Süddeutschen Regionalmeisterschaft",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Estonia Open",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Jacobs Open",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Science Po Le Havre IV",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "USU Open",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "HSE Open",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Paris IV",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Schwarzwald Cup",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Dutch Open",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "John Smith Memorial Mace Final",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "French Debate Association Tournament Final",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Heriot-Watt Open",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Mykolas Romeris IV",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "DCU Open",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "John Smith Memorial Mace Open_Semiss",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Debattoernooi Utrecht (DTU)",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Zeit Debatte Magdeburg",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Vienna IV",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "French Debate Association Tournament Open_Semiss",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Budapest Open",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Manchester IV",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Aberdeen Open",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Final Irish Times",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "LSE Open",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Irish Mace Third Round",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Bonapartiaans Debattoernooi Amsterdam (BDT)",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Cardiff IV",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Galway Open",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Aghveryan IV",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Irish Times Open_Semiss",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Trinity IV",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "York IV",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "French Debate Association Tournament Preliminary Rounds",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Irish Mace Debates Round 2",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Berlin Punk",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Rotterdam BP Tournament",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Berlin New Year’s Invitational",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Oxford Women’s Open",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Zeit Debatte Hamburg",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "De La Salle WUDC",
+        "format": "",
+        "year": "2012"
+    },
+    {
+        "name": "Dutch Novice Cup",
+        "format": "",
+        "year": "2011"
+    },
+    {
+        "name": "Stuttgart IV",
+        "format": "",
+        "year": "2011"
+    },
+    {
+        "name": "SSE Riga IV",
+        "format": "",
+        "year": "2011"
+    },
+    {
+        "name": "Streitcultur Cup",
+        "format": "",
+        "year": "2011"
+    },
+    {
+        "name": "Estonian Pro-Am Tournament",
+        "format": "",
+        "year": "2011"
+    },
+    {
+        "name": "Finnish National Championships",
+        "format": "",
+        "year": "2011"
+    },
+    {
+        "name": "KCL IV",
+        "format": "",
+        "year": "2011"
+    },
+    {
+        "name": "Cork IV",
+        "format": "",
+        "year": "2011"
+    },
+    {
+        "name": "Paris Centrale IV",
+        "format": "",
+        "year": "2011"
+    },
+    {
+        "name": "Cicero Debattoernooi",
+        "format": "",
+        "year": "2011"
+    },
+    {
+        "name": "ESU England Mace",
+        "format": "",
+        "year": "2011"
+    },
+    {
+        "name": "Moscow Open",
+        "format": "",
+        "year": "2011"
+    },
+    {
+        "name": "Zeit Debatte Karlsruhe",
+        "format": "",
+        "year": "2011"
+    },
+    {
+        "name": "IDAS",
+        "format": "",
+        "year": "2011"
+    },
+    {
+        "name": "IDAS Tournament II",
+        "format": "",
+        "year": "2011"
+    },
+    {
+        "name": "Irish Times Round 2",
+        "format": "",
+        "year": "2011"
+    },
+    {
+        "name": "Bogwall",
+        "format": "",
+        "year": "2011"
+    },
+    {
+        "name": "Cambridge IV",
+        "format": "",
+        "year": "2011"
+    },
+    {
+        "name": "Oxford IV",
+        "format": "",
+        "year": "2011"
+    },
+    {
+        "name": "John Smith Memorial Irish Mace Round 1",
+        "format": "",
+        "year": "2011"
+    },
+    {
+        "name": "Durham IV",
+        "format": "",
+        "year": "2011"
+    },
+    {
+        "name": "UCU Open",
+        "format": "",
+        "year": "2011"
+    },
+    {
+        "name": "New Zealand BP Debating Championships",
+        "format": "",
+        "year": "2011"
+    },
+    {
+        "name": "Irish Times Debates First Round",
+        "format": "",
+        "year": "2011"
+    },
+    {
+        "name": "Imperial College Open",
+        "format": "",
+        "year": "2011"
+    },
+    {
+        "name": "NAMDA Novices",
+        "format": "",
+        "year": "2011"
+    },
+    {
+        "name": "UCD VP",
+        "format": "",
+        "year": "2011"
+    },
+    {
+        "name": "SOAS IV",
+        "format": "",
+        "year": "2011"
+    },
+    {
+        "name": "Masters",
+        "format": "",
+        "year": "2011"
+    },
+    {
+        "name": "Edinburgh Cup",
+        "format": "",
+        "year": "2011"
+    },
+    {
+        "name": "Dutch Pro-Am Tournament",
+        "format": "",
+        "year": "2011"
+    },
+    {
+        "name": "Kiev Open",
+        "format": "",
+        "year": "2011"
+    },
+    {
+        "name": "EU-China Youth Debate Tournament",
+        "format": "",
+        "year": "2011"
+    },
+    {
+        "name": "Red Sea Open",
+        "format": "",
+        "year": "2011"
+    },
+    {
+        "name": "Botswana WUDC",
+        "format": "",
+        "year": "2011"
+    },
+    {
+        "name": "SSE Riga IV",
+        "format": "",
+        "year": "2010"
+    },
+    {
+        "name": "Koc WUDC",
+        "format": "",
+        "year": "2010"
+    },
+    {
+        "name": "New Zealand BP Debating Championships",
+        "format": "",
+        "year": "2009"
+    },
+    {
+        "name": "Joynt Scroll",
+        "format": "",
+        "year": "2009"
+    },
+    {
+        "name": "Cork WUDC",
+        "format": "",
+        "year": "2009"
+    },
+    {
+        "name": "New Zealand BP Debating Championships",
+        "format": "",
+        "year": "2008"
+    },
+    {
+        "name": "Assumption WUDC",
+        "format": "",
+        "year": "2008"
+    },
+    {
+        "name": "New Zealand BP Debating Championships",
+        "format": "",
+        "year": "2007"
+    },
+    {
+        "name": "SSE Riga IV",
+        "format": "",
+        "year": "2007"
+    },
+    {
+        "name": "UBC WUDC",
+        "format": "",
+        "year": "2007"
+    },
+    {
+        "name": "SSE Riga IV",
+        "format": "",
+        "year": "2006"
+    },
+    {
+        "name": "SSE Riga IV",
+        "format": "",
+        "year": "2005"
+    },
+    {
+        "name": "SSE Riga Practice Tournament",
+        "format": "",
+        "year": "1999"
+    },
+    {
+        "name": "21st SSE Riga IV",
+        "format": "",
+        "year": ""
+    },
+    {
+        "name": "GGDSD PDC",
+        "format": "",
+        "year": "2020"
+    }
+]

@@ -1,0 +1,129 @@
+.addTournament {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.addTournamentTitle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-family: "Lora", serif;
+    margin-top: 1rem;
+    padding-left: 5rem;
+    font-size: 1rem;
+}
+.uploadTournamentsFromJSON {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1rem;
+    font-size: 0.9rem;
+}
+.uploadTournamentsFromJSON button {
+    color: white;
+    background-color: #282a35;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+.uploadTournamentsFromJSON button:hover {
+    background-color: #000000;
+}
+.getTournamentJSONFile {
+    margin-left: 7rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+.loadTournamentJSONFileButton {
+    margin-right: 1rem;
+}
+.uploadTournamentsJSONButton {
+    margin-left: 7rem;
+}
+#tournamentForm {
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+#tournamentForm input {
+    font-family: "Lora", serif;
+    padding-left: 0.3rem;
+}
+
+.addTournamentButton {
+    color: white;
+    background-color: #282a35;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-weight: bolder;
+    margin-left: 1rem;
+}
+
+.addTournamentButton:hover {
+    background-color: #000000;
+}
+
+.tournamentAddingResultContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    height: 4rem;
+}
+
+.endingLine {
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    border-top: 1px solid black;
+}
+
+@media only screen and (max-width: 425px) {
+    .addTournamentTitle {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+        font-size: 1rem;
+    }
+    .getTournamentJSONFile {
+        margin-left: 3rem;
+    }
+    .uploadTournamentsJSONButton {
+        margin-left: 3rem;
+    }
+    #tournamentForm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #tournamentForm input {
+        margin: 0.3rem;
+        height: 2rem;
+        border: 1.5px solid #e1e1e1;
+        border-radius: 5px;
+    }
+    .addTournamentButton {
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+    .addTournamentTitle {
+        font-size: 1rem;
+    }
+    .getMotionJSONFile {
+        margin-left: 6rem;
+    }
+    .uploadMotionsJSONButton {
+        margin-left: 6rem;
+    }
+}

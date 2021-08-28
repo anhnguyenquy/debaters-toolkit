@@ -1,0 +1,67 @@
+.navBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282a35;
+    font-family: "Source Sans Pro", sans-serif;
+    height: 7vh;
+    width: 100%;
+}
+.anchor {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    font-weight: bolder;
+    font-size: 0.8rem;
+    height: 100%;
+    width: 24vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home {
+    width: 4vw !important;
+}
+.home i {
+    font-size: 1.2rem !important;
+}
+.anchor:hover {
+    background-color: #000000;
+}
+.active {
+    background-color: #000000;
+}
+@media only screen and (max-width: 379px) {
+    .anchor {
+        font-size: 0.7rem;
+        width: 22vw;
+    }
+    .home {
+        width: 12vw !important;
+    }
+    .home i {
+        font-size: 1rem !important;
+    }
+}
+@media only screen and (max-width: 425px) and (min-width: 380px) {
+    .anchor {
+        font-size: 0.8rem;
+        width: 22vw;
+    }
+    .home {
+        width: 12vw !important;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+    .anchor {
+        font-size: 1.1rem;
+        width: 22.5vw;
+    }
+    .home {
+        width: 10vw !important;
+    }
+    .home i {
+        font-size: 2rem !important;
+    }
+}

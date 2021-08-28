@@ -1,0 +1,236 @@
+.loadTournaments {
+    width: 100%;
+    font-family: "Lora", serif;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+    padding-bottom: 2rem;
+}
+
+.loadedTournamentsHeaderContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.tournamentsListTitle {
+    padding-left: 5rem;
+}
+
+#fetchTournamentsButton {
+    margin-left: 2rem;
+    background-color: #282a35;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+#fetchTournamentsButton:hover {
+    background-color: #000000;
+}
+
+.displayExistingTournaments {
+    padding-top: 1rem;
+}
+
+.loadingTournamentMessage {
+    margin-left: 6rem;
+}
+
+.filterTournaments {
+    display: flex;
+    flex-direction: column;
+    margin-left: 6rem;
+}
+
+.filterTournaments input {
+    font-family: "Lora", serif;
+    padding: 0.3rem;
+    padding-left: 0.6rem;
+    border-radius: 5px;
+    border: 1.5px solid #e1e1e1;
+}
+
+.tournamentFilterItem {
+    width: 15rem;
+    margin: 0.3rem;
+    font-size: 0.9rem;
+}
+
+.tournamentFilterItemBox {
+    height: 2.33rem;
+}
+/* Chrome, Safari, Edge, Opera */
+.maxNum::-webkit-outer-spin-button,
+.maxNum::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.maxNum[type=number] {
+  -moz-appearance: textfield;
+}
+.tournamentsTableContainer {
+    width: 100%;
+}
+.downloadTournamentsJSONButtonContainer {
+    width: 100%;
+    display: flex;
+}
+.downloadTournamentsJSON {
+    background-color: #282a35;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+    box-sizing: border-box;
+    margin-top: 1rem;
+    margin-left: 6rem;
+}
+.downloadTournamentsJSON:hover {
+    background-color: #000000;
+}
+.tournamentScriptContainer {
+    width: 100%;
+    display: flex;
+}
+.runTournamentScript {
+    background-color: #282a35;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+    box-sizing: border-box;
+    margin-top: 1rem;
+    margin-left: 6rem;
+}
+.runTournamentScript:hover {
+    background-color: #000000;
+}
+.loadedTournamentsTable {
+    width: 70%;
+    margin-left: 6rem;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.tournamentsTableHeaderRow {
+    display: flex;
+}
+
+.tournamentsTableHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border: 1px solid black;
+}
+
+.emptyTournamentsTableHeaderCell {
+    border: 1px solid black;
+}
+
+.tournamentTableRow {
+    display: flex;
+    font-size: 0.8rem;
+}
+
+.tournamentTableCell {
+    margin: 0;
+    border: 1px solid black;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.removeTournamentButton {
+    padding: 0;
+    color: #e49191;
+    background-color: transparent;
+    border: none;
+}
+
+.removeTournamentButton:hover {
+    color: rgb(167, 0, 0);
+}
+
+.deleteTournamentCell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 425px) {
+    .filterTournaments {
+        margin-left: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+    .loadingTournamentMessage {
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .loadedTournamentsTable {
+        font-size: 0.6rem;
+        width: 100%;
+        margin-left: 0.3rem;
+        margin-right: 0.3rem;
+    }
+    .tournamentsTableContainer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .tournamentsTableContainer input {
+        font-size: 0.47rem;
+    }
+    .tournamentsTableHeader {
+        padding: 0.2rem;
+    }
+    .tournamentTableCell {
+        font-size: 0.47rem;
+        padding: 0;
+    }
+    .removeTournamentButton i {
+        font-size: 0.6rem;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+    .loadTournaments {
+    }
+    .loadedTournamentsTable {
+        font-size: 1rem;
+        width: 95%;
+        margin-left: 0;
+    }
+    .tournamentsTableContainer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .tournamentsTableHeader {
+        padding: 0.4rem;
+    }
+    .tournamentTableCell {
+        padding: 0;
+    }
+    .filterTournaments {
+        width: 100%;
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+        margin-left: 6rem;
+    }
+}
