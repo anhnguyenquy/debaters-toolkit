@@ -11,7 +11,7 @@ import tournamentOptions from '../../helpers/data/tournamentOptions.json'
 import './style.css'
 export const MotionDatabase = () => {
     const [topic, setTopic] = useState('')
-    const [language, setLanguage] = useState('')
+    const [language, setLanguage] = useState('English')
     const [tournament, setTournament] = useState('')
     const [max, setMax] = useState(10)
     const [motions, setMotions] = useState([])

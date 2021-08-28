@@ -62,7 +62,7 @@ export const MotionGenerator = () => {
             }
             if (keyword != '') {
                 currentValidMotions = currentValidMotions.filter(motion => {
-                    return motion.content.includes(keyword) || motion.infoSlide.includes(keyword)
+                    return motion.content.toUpperCase().includes(keyword.toUpperCase()) || motion.infoSlide.toUpperCase().includes(keyword.toUpperCase())
                 })
             }
             setValidMotions(currentValidMotions)
