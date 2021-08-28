@@ -6,7 +6,8 @@ import { Placeholder, SingleValue, Option } from '../../components/SelectCompone
 import { Table } from '../../components'
 import { languageStyle, topicStyle, tournamentStyle } from './styles'
 import { getTourneyInfo } from '../../helpers'
-import { tournamentOptions, tableClassNames, topics, languages, customTheme } from '../../helpers/data'
+import { tableClassNames, topics, languages, customTheme } from '../../helpers/data'
+import tournamentOptions from '../../helpers/data/tournamentOptions.json'
 import './style.css'
 export const MotionDatabase = () => {
     const [topic, setTopic] = useState('')
