@@ -2,7 +2,7 @@ import Select from 'react-select'
 import { useEffect, useState } from 'react'
 import { firebaseFirestore } from '../../firebase'
 import TextareaAutosize from 'react-textarea-autosize'
-import { Placeholder, SingleValue, Option } from '../../components/SelectComponents'
+import { Placeholder, SingleValue, Option, Input } from '../../components/SelectComponents'
 import { Table } from '../../components'
 import { languageStyle, topicStyle, tournamentStyle } from './styles'
 import { getTourneyInfo } from '../../helpers'
@@ -154,7 +154,7 @@ export const MotionDatabase = () => {
                     options={tournamentOptions}
                     onChange={changeTournament}
                     isClearable={true}
-                    components={{ Placeholder }}
+                    components={{ Placeholder, SingleValue, Option, Input }}
                     styles={tournamentStyle}
                 />
                 <input type="number" className="motionFilter queryBox maxBox" placeholder="How many to display at max? (Default: 10)" onChange={changeMax} spellCheck={false} />
