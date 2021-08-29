@@ -3,7 +3,7 @@ export const InformationContainer = () => {
     return (
         <div className="informationContainer">
             <div className="topLane">
-                <a href="/about">ABOUT</a>
+                <button><a href="/about">ABOUT</a></button>
             </div>
             <div className="midLane">
                 <a href="https://www.facebook.com/debaters.toolkit/"><button><i class="fab fa-facebook-square"></i></button></a>

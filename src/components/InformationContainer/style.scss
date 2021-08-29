@@ -12,12 +12,22 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        a {
-            text-decoration: none;
-            color: white;
+        button {
+            padding: 0.3rem;
+            border-radius: 5px;
+            border: 1px solid white;
+            background-color: transparent;
+            font-weight: 500;
+            a {
+                text-decoration: none;
+                color: white;
+            }
         }
-        a:hover {
-            color: #4caf50;
+        button:hover {
+            background-color: white;
+            a {
+                color: black;
+            }
         }
     }
     .midLane {
