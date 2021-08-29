@@ -1,6 +1,6 @@
 # Debaters' toolkit
 
-Debaters' toolkit is a helpful online toolkit for debaters. Users can search for or generate random debate motions based on various criteria (e.g. tournament, topic, language, etc.), calculate break for BP, AP, and WSDC, and do time keeping for various debate formats without having to download any software. This software contains open-source third-party materials properly used in accordance with intellectual property laws.
+Debaters' toolkit is a helpful online toolkit for debaters. Users can search for or generate random debate motions based on various criteria (e.g. tournament, topic, language, etc.), calculate break for BP, AP, and WSDC, and do time keeping for various debate formats without having to download any software. This software contains open-source third-party materials used in full accordance with related licenses and intellectual property laws.
 
 ## Sources for our motions
 
