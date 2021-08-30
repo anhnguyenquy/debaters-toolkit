@@ -4,7 +4,7 @@ import DownloadLink from 'react-download-link'
 import { useState } from 'react'
 import { firebaseFirestore } from '../../../../firebase'
 import { formats, customTheme } from '../../../../helpers/data'
-import { tournamentOptions } from '../../../../helpers/data'
+import tournamentOptions from '../../../../helpers/data/tournamentOptions.json'
 import { useDeviceBreakPoint } from '../../../../hooks'
 import { TablePC, TablePhone, TableTablet } from './components/tables'
 export const LoadTournaments = () => {
