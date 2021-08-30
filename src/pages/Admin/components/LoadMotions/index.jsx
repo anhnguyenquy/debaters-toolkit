@@ -1,6 +1,6 @@
 import './style.css'
 import Select from 'react-select'
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 import { firebaseFirestore } from '../../../../firebase'
 import { topics, languages, customTheme, topicsForMotions } from '../../../../helpers/data'
 import tournamentOptions from '../../../../helpers/data/tournamentOptions.json'
@@ -18,6 +18,7 @@ export const LoadMotions = () => {
     const [max, setMax] = useState(10)
     const [motions, setMotions] = useState([])
     const [loading, setLoading] = useState(false)
+    const tournamentRef = useRef(null)
     function changeTopic(val) {
         if (val.length == 0) {
             setTopic([])
@@ -42,6 +43,21 @@ export const LoadMotions = () => {
         }
         else {
             setTournamentID(val.value);
+        }
+    }
+    function changeTournamentID(e) {
+        setTournamentID(e.target.value)
+        let newOption
+        tournamentOptions.forEach(option => {
+            if (option.value == e.target.value) {
+                newOption = tournamentOptions[tournamentOptions.indexOf(option)]
+            }
+        })
+        if (newOption != undefined) {
+            tournamentRef.current.select.setValue(newOption)
+        }
+        else {
+            tournamentRef.current.select.setValue('')
         }
     }
     const changeMax = (e) => {
@@ -203,8 +219,9 @@ export const LoadMotions = () => {
                     options={tournamentOptions}
                     onChange={changeTournament}
                     isClearable={true}
+                    ref={tournamentRef}
                 />
-                <input className="motionFilterItem motionFilterItemBox" spellCheck={false} type="text" placeholder="Tournament ID" defaultValue={tournamentID} onChange={(e) => { setTournamentID(e.target.value) }} />
+                <input className="motionFilterItem motionFilterItemBox" spellCheck={false} type="text" placeholder="Tournament ID" value={tournamentID} onChange={changeTournamentID} />
                 <input className="motionFilterItem motionFilterItemBox" spellCheck={false} type="text" placeholder="Motion ID" defaultValue={motionID} onChange={(e) => { setMotionID(e.target.value) }} />
                 <input className="motionFilterItem motionFilterItemBox inputMax" spellCheck={false} type="number" placeholder="Display at max? (Default: 10)" onChange={changeMax} />
             </div>

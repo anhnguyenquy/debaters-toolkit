@@ -1,7 +1,7 @@
 import './style.css'
 import Select from 'react-select'
 import DownloadLink from 'react-download-link'
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 import { firebaseFirestore } from '../../../../firebase'
 import { formats, customTheme } from '../../../../helpers/data'
 import tournamentOptions from '../../../../helpers/data/tournamentOptions.json'
@@ -15,6 +15,7 @@ export const LoadTournaments = () => {
     const [loading, setLoading] = useState(false)
     const [tournaments, setTournaments] = useState([])
     const [max, setMax] = useState(10)
+    const tournamentRef = useRef(null)
     const loadTournaments = async () => {
         let tournamentsRef = firebaseFirestore.collection('tournaments')
         setLoading(true)
@@ -56,6 +57,21 @@ export const LoadTournaments = () => {
         }
         else {
             setID(val.value);
+        }
+    }
+    function changeTournamentID(e) {
+        setID(e.target.value)
+        let newOption
+        tournamentOptions.forEach(option => {
+            if (option.value == e.target.value) {
+                newOption = tournamentOptions[tournamentOptions.indexOf(option)]
+            }
+        })
+        if (newOption != undefined) {
+            tournamentRef.current.select.setValue(newOption)
+        }
+        else {
+            tournamentRef.current.select.setValue('')
         }
     }
     const changeMax = (e) => {
@@ -129,8 +145,9 @@ export const LoadTournaments = () => {
                     options={tournamentOptions}
                     onChange={changeTournament}
                     isClearable={true}
+                    ref={tournamentRef}
                 />
-                <input className="tournamentFilterItem tournamentFilterItemBox" spellCheck={false} type="text" placeholder="ID" defaultValue={id} onChange={(e) => { setID(e.target.value) }} />
+                <input className="tournamentFilterItem tournamentFilterItemBox" spellCheck={false} type="text" placeholder="ID" value={id} onChange={changeTournamentID} />
                 <input className="tournamentFilterItem tournamentFilterItemBox maxNum" spellCheck={false} type="text" placeholder="Display at max? (Default: 10)" onChange={changeMax} />
             </div>
             <div className="downloadTournamentsJSONButtonContainer">
