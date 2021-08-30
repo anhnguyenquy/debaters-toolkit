@@ -1,6 +1,6 @@
 {
   "name": "debaters-toolkit",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "private": true,
   "dependencies": {
     "@capacitor/android": "3.2.0",
