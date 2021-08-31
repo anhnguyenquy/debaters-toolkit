@@ -84,7 +84,7 @@
         font-size: 0.75rem;
     }
     .caseContainer {
-        
+        justify-content: space-around;
         width: 100%;
         font-size: 0.75rem;
     }

@@ -264,7 +264,7 @@ export const Timer = (props) => {
                         placeholder='Format'
                         isSearchable={false}
                         components={{ Placeholder, SingleValue, Option }}
-                        styles={isPhone ? formatStyleForPhone : formatStyle}
+                        styles={isPhone ? formatStyleForPhone : formatStyle} //styles={isPhone ? formatStyleForPhone : formatStyle}
                     />
                 </div>
             </div>
