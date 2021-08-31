@@ -6,7 +6,8 @@ import { customTheme } from '../../../helpers/data'
 import { formatList, formatListForPhone } from './formats'
 import { useDeviceBreakPoint } from '../../../hooks'
 import { Placeholder, SingleValue, Option } from '../../../components/SelectComponents'
-import { formatStyle, formatStyleForPhone } from './formatStyles'
+import { formatStyle, formatStyleForPhone, formatStyleForExtraSmall } from './formatStyles'
+import { IndicatorsContainer } from './IndicatorsContainers'
 export const Timer = (props) => {
     const { format } = props
     const audio = new Audio('/media/bell.m4a')
@@ -22,7 +23,7 @@ export const Timer = (props) => {
     const [poiCount, setPoiCount] = useState(15)
     const [poiOn, setPoiOn] = useState(false)
     const [bellTimes, setBellTimes] = useState(format.periods[currentPeriod].bellAt)
-    const [timeCountUp, setTimeCountUp] = useState(0) 
+    const [timeCountUp, setTimeCountUp] = useState(0)
     const [minuteCountUp, setMinuteCountUp] = useState(Math.floor(timeCountUp / 60))
     const [secondCountUp, setSecondCountUp] = useState(Math.floor(timeCountUp % 60))
     const { isPhone, isTablet, isExtraSmall } = useDeviceBreakPoint()
@@ -241,7 +242,7 @@ export const Timer = (props) => {
             <div className="topBar">
                 <div className="formatName">
                     {
-                        isExtraSmall ? format.title : format.longTitle
+                        format.longTitle //isExtraSmall ? format.title : format.longTitle
                     }
                 </div>
                 <div className="topBarIcons">
@@ -259,12 +260,12 @@ export const Timer = (props) => {
                         className={isExtraSmall ? 'extraSmallFormatSelector' : ''}
                         id="formatSelector"
                         theme={customTheme}
-                        options={isPhone ? formatListForPhone : formatList}
+                        options={isPhone || isExtraSmall ? formatListForPhone : formatList}
                         onChange={handleRedirect}
                         placeholder='Format'
                         isSearchable={false}
-                        components={{ Placeholder, SingleValue, Option }}
-                        styles={isPhone ? formatStyleForPhone : formatStyle} //styles={isPhone ? formatStyleForPhone : formatStyle}
+                        components={!isExtraSmall ? { Placeholder, SingleValue, Option } : { Placeholder, SingleValue, Option, IndicatorsContainer }} //{ Placeholder, SingleValue, Option }
+                        styles={isPhone ? formatStyleForPhone : isExtraSmall ? formatStyleForExtraSmall : formatStyle} //styles={isPhone ? formatStyleForPhone : formatStyle}
                     />
                 </div>
             </div>
