@@ -1,5 +1,5 @@
 import './style.scss'
-import { useDeviceBreakPoint } from '../../hooks'
+import { useDeviceBreakPoint } from '../../core/hooks'
 export const About = () => {
     const { isPhone, isTablet, isExtraSmall } = useDeviceBreakPoint()
     return (

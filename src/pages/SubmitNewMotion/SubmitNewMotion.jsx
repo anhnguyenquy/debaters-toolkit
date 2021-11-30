@@ -1,15 +1,15 @@
 import './style.css'
 import Select from 'react-select'
 import { useState, useRef } from 'react'
-import { useForm } from '../../hooks'
+import { useForm } from '../../core/hooks'
 import { firebaseFirestore } from '../../firebase'
-import { Message } from '../../components'
-import { topics, languages, formats, customTheme } from '../../helpers/data'
+import { Message } from '../../core/components'
+import { topics, languages, formats, customTheme } from '../../core/constants'
 import TextareaAutosize from 'react-textarea-autosize'
 export const SubmitNewMotion = () => {
     const { formValue, changeFormValue, resetFormValue } = useForm({ motion: "", infoSlide: "", topic: [], language: "", division: "", tournamentName: "", year: "", round: "", format: "", link: "" })
-    const [sent, setSent] = useState(undefined);
-    const [saving, setSaving] = useState(false);
+    const [sent, setSent] = useState(undefined)
+    const [saving, setSaving] = useState(false)
     const topicRef = useRef(null)
     const languageRef = useRef(null)
     const formatRef = useRef(null)
@@ -29,12 +29,12 @@ export const SubmitNewMotion = () => {
             }
             catch (err) {
                 setSent(false)
-                setTimeout(() => {setSent(undefined)}, 2000)
+                setTimeout(() => { setSent(undefined) }, 2000)
             }
         }
         else {
             setSent(false)
-            setTimeout(() => {setSent(undefined)}, 2000)
+            setTimeout(() => { setSent(undefined) }, 2000)
         }
     }
     function changeTopic(val) {

@@ -1,10 +1,10 @@
-import { Table, EditableText, EditableTextArea, EditableSelector } from '../../../../../../components'
-import { tableClassNames } from '../../../../../../helpers/data/tableClassNames'
-import { topics } from '../../../../../../helpers/data/topics'
-import { formats } from '../../../../../../helpers/data/formats'
+import { Table, EditableText, EditableTextArea, EditableSelector } from '../../../../../../core/components'
+import { tableClassNames } from '../../../../../../core/constants/tableClassNames'
+import { topics } from '../../../../../../core/constants/topics'
+import { formats } from '../../../../../../core/constants/formats'
 import Select, { components } from 'react-select'
-import { ValueContainer, MultiValueContainer, SelectContainer, ClearIndicator, DropdownIndicator } from '../../../../../../components/SelectComponents'
-import { customTheme } from '../../../../../../helpers/data/customTheme'
+import { ValueContainer, MultiValueContainer, SelectContainer, ClearIndicator, DropdownIndicator } from '../../../../../../core/components/SelectComponents'
+import { customTheme } from '../../../../../../core/constants/customTheme'
 import { useState } from 'react'
 export const TablePhone = (props) => {
     const { updateRequest, getDefaultFormat, getDefaultTopic, addToDatabase, del, requests } = props
@@ -23,8 +23,8 @@ export const TablePhone = (props) => {
             <div style={{}}>
                 <components.IndicatorsContainer {...props} />
             </div>
-        );
-    };
+        )
+    }
     const thirdColumnSelectorStyles = {
         valueContainer: base => ({
             ...base,
@@ -39,11 +39,11 @@ export const TablePhone = (props) => {
         marginTop: '8px',
         width: '1px',
         height: '0.8rem',
-    };
+    }
 
     const IndicatorSeparator = ({ innerProps }) => {
-        return <span style={indicatorSeparatorStyle} {...innerProps} />;
-    };
+        return <span style={indicatorSeparatorStyle} {...innerProps} />
+    }
     const topicSelectorStyles = {
         valueContainer: base => ({
             ...base,

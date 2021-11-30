@@ -1,4 +1,4 @@
-import { firebaseFirestore } from "../firebase"
+import { firebaseFirestore } from "../../firebase"
 export const getTourneyInfo = async (id) => {
     const tournamentsRef = firebaseFirestore.collection('tournaments').doc(id)
     const tournamentData = await tournamentsRef.get();

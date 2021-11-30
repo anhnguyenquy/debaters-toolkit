@@ -1,13 +1,13 @@
 import './style.css'
 import Select from 'react-select'
 import { firebaseFirestore } from '../../../../firebase'
-import { useForm } from '../../../../hooks'
-import { topics, languages, customTheme } from '../../../../helpers/data'
-import tournamentOptions from '../../../../helpers/data/tournamentOptions.json'
-import { Message } from '../../../../components'
+import { useForm } from '../../../../core/hooks'
+import { topics, languages, customTheme } from '../../../../core/constants'
+import tournamentOptions from '../../../../core/constants/tournamentOptions.json'
+import { Message } from '../../../../core/components'
 import { useEffect, useState, useRef } from 'react'
 import TextareaAutosize from 'react-textarea-autosize'
-import { getTourneyID } from '../../../../helpers/getTourneyID'
+import { getTourneyID } from '../../../../core/helpers/getTourneyID'
 import _ from 'lodash'
 export const AddMotion = () => {
     const [sent, setSent] = useState(undefined)
@@ -69,20 +69,20 @@ export const AddMotion = () => {
         }
     }
     const fileInput = useRef(null)
-    const [selectedFile, setSelectedFile] = useState(undefined);
-    const [selected, setSelected] = useState(false);
+    const [selectedFile, setSelectedFile] = useState(undefined)
+    const [selected, setSelected] = useState(false)
     const [motions, setMotions] = useState(undefined)
     const changeHandler = (event) => {
-        setSelectedFile(event.target.files[0]);
-        setSelected(true);
-    };
+        setSelectedFile(event.target.files[0])
+        setSelected(true)
+    }
     useEffect(() => {
         if (selectedFile != undefined) {
-            const reader = new FileReader();
-            reader.readAsText(selectedFile);
+            const reader = new FileReader()
+            reader.readAsText(selectedFile)
             reader.onload = (e) => {
-                setMotions(JSON.parse(e.target.result));
-            };
+                setMotions(JSON.parse(e.target.result))
+            }
         }
     }, [selectedFile])
     const addMotions = async (e) => {
@@ -91,7 +91,7 @@ export const AddMotion = () => {
         setSaving(true)
         try {
             if (!_.isString(motions[0].tournament) || !_.isString(motions[0].content) || !_.isString(motions[0].year)) {
-                alert('Invalid JSON Selected !');
+                alert('Invalid JSON Selected !')
                 setSaving(false)
                 setSent(false)
                 setTimeout(() => { setSent(undefined) }, 1500)

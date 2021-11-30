@@ -1,5 +1,5 @@
-import { Table, EditableText } from '../../../../../../components'
-import { tableClassNames } from '../../../../../../helpers/data/tableClassNames'
+import { Table, EditableText } from '../../../../../../core/components'
+import { tableClassNames } from '../../../../../../core/constants/tableClassNames'
 export const TableTablet = (props) => {
     const { updateTournament, del, tournaments } = props
     return (
@@ -44,7 +44,7 @@ export const TableTablet = (props) => {
                     width: '30%',
                     render: (tournament) => {
                         return (
-                            <div style={{ textAlign: "center", fontSize:'0.7rem' }}>{tournament.id}</div>
+                            <div style={{ textAlign: "center", fontSize: '0.7rem' }}>{tournament.id}</div>
                         )
                     }
                 },

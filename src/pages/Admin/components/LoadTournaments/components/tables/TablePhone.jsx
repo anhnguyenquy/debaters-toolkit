@@ -1,6 +1,6 @@
-import { Table } from '../../../../../../components/Table'
-import { EditableText } from '../../../../../../components'
-import { tableClassNames } from '../../../../../../helpers/data/tableClassNames'
+import { Table } from '../../../../../../core/components/Table'
+import { EditableText } from '../../../../../../core/components'
+import { tableClassNames } from '../../../../../../core/constants/tableClassNames'
 export const TablePhone = (props) => {
     const { updateTournament, del, tournaments } = props
     return (

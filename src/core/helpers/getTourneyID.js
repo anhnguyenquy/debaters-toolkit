@@ -1,4 +1,4 @@
-import { firebaseFirestore } from "../firebase"
+import { firebaseFirestore } from "../../firebase"
 export const getTourneyID = async (name, year, format) => {
     let tournamentsRef = firebaseFirestore.collection('tournaments').where('name', '==', name)
     if (year != '') {

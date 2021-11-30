@@ -1,4 +1,4 @@
-import { topics } from './data/topics'
+import { topics } from '../constants/topics'
 export const getFormattedTopicsFromValues = (topicValues) => {
     let topicArray = {}
     topicValues.forEach(topicValue => {

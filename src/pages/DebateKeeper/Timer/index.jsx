@@ -2,10 +2,10 @@ import './style.css'
 import Select from 'react-select'
 import { useEffect, useState } from 'react'
 import { useHistory } from 'react-router'
-import { customTheme } from '../../../helpers/data'
+import { customTheme } from '../../../core/constants'
 import { formatList, formatListForPhone } from './formats'
-import { useDeviceBreakPoint } from '../../../hooks'
-import { Placeholder, SingleValue, Option } from '../../../components/SelectComponents'
+import { useDeviceBreakPoint } from '../../../core/hooks'
+import { Placeholder, SingleValue, Option } from '../../../core/components/SelectComponents'
 import { formatStyle, formatStyleForPhone, formatStyleForExtraSmall } from './formatStyles'
 import { IndicatorsContainer } from './IndicatorsContainers'
 export const Timer = (props) => {
@@ -15,7 +15,7 @@ export const Timer = (props) => {
     const [running, setRunning] = useState(false)
     const [bell, setBell] = useState(true)
     const [currentPeriod, setCurrentPeriod] = useState(0)
-    const [time, setTime] = useState(format.periods[currentPeriod].timeLength); //seconds
+    const [time, setTime] = useState(format.periods[currentPeriod].timeLength) //seconds
     const [minute, setMinute] = useState(Math.floor(time / 60))
     const [second, setSecond] = useState(Math.floor(time % 60))
     const [atInit, setAtInit] = useState(true)
@@ -126,9 +126,9 @@ export const Timer = (props) => {
         poiReset()
     }
     const reset = () => {
-        setRunning(false);
+        setRunning(false)
         setElapsed(false)
-        setAtInit(true);
+        setAtInit(true)
         poiReset()
         setTime(format.periods[currentPeriod].timeLength)
         setTimeCountUp(0)

@@ -1,9 +1,9 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import { HomePage, MotionGenerator, AdminPage, BreakCalculator, MotionDatabase, SubmitNewMotion, DebateKeeper, About } from './pages';
-import { NavBar } from './components'
+import { NavBar } from './core/components'
 import React from 'react';
-function App() {
+export default function App() {
   return (
     <Router>
         <div className="App">
@@ -38,4 +38,4 @@ function App() {
       </Router>
   );
 }
-export default App;
+

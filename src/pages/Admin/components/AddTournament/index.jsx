@@ -1,13 +1,13 @@
 import { firebaseFirestore } from '../../../../firebase'
-import { useForm } from "../../../../hooks"
+import { useForm } from "../../../../core/hooks"
 import { useEffect, useState, useRef } from 'react'
-import { Message } from '../../../../components'
+import { Message } from '../../../../core/components'
 import _ from "lodash"
 import './style.scss'
 export const AddTournament = () => {
     const { formValue, changeFormValue, resetFormValue } = useForm({ name: "", format: "", year: "" })
     const [saving, setSaving] = useState(false)
-    const [sent, setSent] = useState(undefined);
+    const [sent, setSent] = useState(undefined)
     const submit = async (e) => {
         e.preventDefault()
         setSent(true)
@@ -32,8 +32,8 @@ export const AddTournament = () => {
             setTimeout(() => { setSent(undefined) }, 1500)
         }
     }
-    const [selectedFile, setSelectedFile] = useState(undefined);
-    const [selected, setSelected] = useState(false);
+    const [selectedFile, setSelectedFile] = useState(undefined)
+    const [selected, setSelected] = useState(false)
     const [tourneys, setTourneys] = useState(undefined)
     const addTournaments = async (e) => {
         e.preventDefault()
@@ -41,7 +41,7 @@ export const AddTournament = () => {
         setSaving(true)
         try {
             if (!_.isString(tourneys[0].name) || !_.isString(tourneys[0].format) || !_.isString(tourneys[0].year)) {
-                alert('Invalid JSON Selected !');
+                alert('Invalid JSON Selected !')
                 setSaving(false)
                 setSent(false)
                 setTimeout(() => { setSent(undefined) }, 1500)
@@ -73,16 +73,16 @@ export const AddTournament = () => {
     }
     const fileInput = useRef(null)
     const changeHandler = (event) => {
-        setSelectedFile(event.target.files[0]);
-        setSelected(true);
-    };
+        setSelectedFile(event.target.files[0])
+        setSelected(true)
+    }
     useEffect(() => {
         if (selectedFile != undefined) {
-            const reader = new FileReader();
-            reader.readAsText(selectedFile);
+            const reader = new FileReader()
+            reader.readAsText(selectedFile)
             reader.onload = (e) => {
-                setTourneys(JSON.parse(e.target.result));
-            };
+                setTourneys(JSON.parse(e.target.result))
+            }
         }
     }, [selectedFile])
     return (

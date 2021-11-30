@@ -2,10 +2,10 @@ import './style.css'
 import Select from 'react-select'
 import { useState } from 'react'
 import { Result } from './Result'
-import { Placeholder, SingleValue, Option } from '../../components/SelectComponents'
-import { customTheme } from '../../helpers/data'
+import { Placeholder, SingleValue, Option } from '../../core/components/SelectComponents'
+import { customTheme } from '../../core/constants'
 import { formatStyle } from './formatStyle'
-import { calculateBreaks } from '../../helpers'
+import { calculateBreaks } from '../../core/helpers'
 export const BreakCalculator = () => {
     const [format, setFormat] = useState('')
     const [teamNumber, setTeamNumber] = useState(undefined)

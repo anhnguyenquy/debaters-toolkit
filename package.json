@@ -1,5 +1,7 @@
 {
   "name": "debaters-toolkit",
+  "author": "Anh Nguyen",
+  "description": "A Swiss knife for debaters",
   "version": "1.0.10",
   "private": true,
   "dependencies": {
@@ -10,11 +12,17 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "capacitor": "^0.5.5",
+    "core-js": "^3.19.2",
+    "cross-env": "^7.0.3",
     "dotenv": "^10.0.0",
+    "electron-is-dev": "^2.0.0",
+    "eslint-webpack-plugin": "^3.1.1",
     "firebase": "^8.6.7",
+    "grpc": "^1.24.11",
     "lodash": "^4.17.21",
     "node-sass": "^6.0.1",
     "react": "^17.0.2",
+    "react-dev-utils": "^11.0.4",
     "react-dom": "^17.0.2",
     "react-download-link": "^2.3.0",
     "react-responsive": "^8.2.0",
@@ -23,15 +31,33 @@
     "react-select": "^4.3.1",
     "react-textarea-autosize": "^8.3.3",
     "readdirp": "^3.6.0",
+    "resolve-url-loader": "^4.0.0",
     "svgo": "^2.4.0",
     "web-vitals": "^1.1.2",
-    "yarn": "^1.22.11"
+    "webpack": "4.44.2"
   },
+  "main": "public/electron.js",
+  "build": {
+    "appId": "com.anhnguyenquy.debaters-toolkit",
+    "files": [
+      "build/**/*",
+      "node_modules/**/*"
+    ],
+    "directories": {
+      "buildResources": "assets"
+    },
+    "extends": null
+  },
+  "homepage": "./",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "dev": "concurrently -k \"cross-env BROWSER=none npm start\" \"npm:electron\"",
+    "electron": "wait-on tcp:3000 && electron .",
+    "electron-pack": "electron-builder -c.extraMetadata.main=build/electron.js",
+    "preelectron-pack": "react-scripts build"
   },
   "eslintConfig": {
     "extends": [
@@ -51,5 +77,11 @@
       "last 1 safari version"
     ]
   },
-  "packageManager": "yarn@3.0.1"
+  "packageManager": "yarn@3.1.1",
+  "devDependencies": {
+    "concurrently": "^6.4.0",
+    "electron": "^16.0.2",
+    "electron-builder": "^22.14.5",
+    "wait-on": "^6.0.0"
+  }
 }

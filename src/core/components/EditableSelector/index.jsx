@@ -1,16 +1,16 @@
 import { useState, useEffect } from "react"
-import Select from 'react-select';
-import { customTheme } from "../../helpers/data/customTheme"
+import Select from 'react-select'
+import { customTheme } from "../../constants"
 import { isObject } from '../../helpers/isObject'
 import './style.css'
 export const EditableSelector = (props) => {
-    const { defaultSelectValue, onUpdate, style, options, defaultValue, multi, components, styles, placeholder, isSearchable } = props;
+    const { defaultSelectValue, onUpdate, style, options, defaultValue, multi, components, styles, placeholder, isSearchable } = props
     const [value, setValue] = useState(defaultValue)
     useEffect(() => {
         setValue(defaultValue)
     }, [defaultValue])
     useEffect(() => {
-        onUpdate(value);
+        onUpdate(value)
     }, [value])
     const updateValue = (val) => {
         if (multi) {

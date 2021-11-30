@@ -1,10 +1,10 @@
 import './style.css'
 import Select from 'react-select'
 import { useState, useEffect } from 'react'
-import { Placeholder, SingleValue, Option } from '../../components/SelectComponents'
+import { Placeholder, SingleValue, Option } from '../../core/components/SelectComponents'
 import { topicStyle, languageStyle } from './styles'
-import { customTheme, languages, topics } from '../../helpers/data'
-import motionsFromDatabase from '../../helpers/data/motionsFromDatabase.json' //import separately to avoid netlify error
+import { customTheme, languages, topics } from '../../core/constants'
+import motionsFromDatabase from '../../core/constants/motionsFromDatabase.json' //import separately to avoid netlify error
 export const MotionGenerator = () => {
     const [topic, setTopic] = useState('')
     const [language, setLanguage] = useState('')
@@ -17,19 +17,19 @@ export const MotionGenerator = () => {
     function changeTopic(val) {
         setConfigJustChanged(true)
         if (val == null) {
-            setTopic('');
+            setTopic('')
         }
         else {
-            setTopic(val.value);
+            setTopic(val.value)
         }
     }
     function changeLanguage(val) {
         setConfigJustChanged(true)
         if (val == null) {
-            setLanguage('');
+            setLanguage('')
         }
         else {
-            setLanguage(val.value);
+            setLanguage(val.value)
         }
     }
     function changeKeyword(e) {

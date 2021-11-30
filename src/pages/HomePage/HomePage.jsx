@@ -1,6 +1,6 @@
 import './style.css'
 import { MotionGeneratorIntro, MotionDatabaseIntro, BreakCalculatorIntro, DebateKeeperIntro } from './components'
-import { InformationContainer } from '../../components'
+import { InformationContainer } from '../../core/components'
 export const HomePage = () => {
     return (
         <div className="homePage">

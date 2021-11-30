@@ -2,9 +2,9 @@ import './style.css'
 import Select from 'react-select'
 import { useState, useRef } from 'react'
 import { firebaseFirestore } from '../../../../firebase'
-import { topics, languages, customTheme, topicsForMotions } from '../../../../helpers/data'
-import tournamentOptions from '../../../../helpers/data/tournamentOptions.json'
-import { useDeviceBreakPoint } from '../../../../hooks'
+import { topics, languages, customTheme, topicsForMotions } from '../../../../core/constants'
+import tournamentOptions from '../../../../core/constants/tournamentOptions.json'
+import { useDeviceBreakPoint } from '../../../../core/hooks'
 import { TablePC, TablePhone, TableTablet } from './components/tables'
 import DownloadLink from 'react-download-link'
 import _ from 'lodash'
@@ -31,18 +31,18 @@ export const LoadMotions = () => {
     }
     function changeLanguage(val) {
         if (val == null) {
-            setLanguage('');
+            setLanguage('')
         }
         else {
-            setLanguage(val.value);
+            setLanguage(val.value)
         }
     }
     function changeTournament(val) {
         if (val == null) {
-            setTournamentID('');
+            setTournamentID('')
         }
         else {
-            setTournamentID(val.value);
+            setTournamentID(val.value)
         }
     }
     function changeTournamentID(e) {
@@ -86,7 +86,7 @@ export const LoadMotions = () => {
             })
         }
         if (motionID == '') {
-            const motionDataRaw = await motionsRef.limit(max).get();
+            const motionDataRaw = await motionsRef.limit(max).get()
             const motionData = []
             motionDataRaw.forEach(doc => {
                 let loadedTopicTemp = { ...doc.data() }
@@ -134,7 +134,7 @@ export const LoadMotions = () => {
             setLoading(false)
         }
         else {
-            const motionDataRaw = await motionsRef.get();
+            const motionDataRaw = await motionsRef.get()
             if (motionDataRaw.exists == true) {
                 const content = motionDataRaw._delegate._document.data.value.mapValue.fields.content.stringValue
                 const division = motionDataRaw._delegate._document.data.value.mapValue.fields.division.stringValue
@@ -157,8 +157,8 @@ export const LoadMotions = () => {
         }
     }
     const del = async (id) => {
-        await firebaseFirestore.collection("motions").doc(id).delete();
-        await loadMotions();
+        await firebaseFirestore.collection("motions").doc(id).delete()
+        await loadMotions()
     }
     const updateMotion = async (fieldName, newValue, id) => {
         if (newValue != undefined && newValue != null) {
@@ -187,11 +187,11 @@ export const LoadMotions = () => {
         return items
     }
     const tableProps = { updateMotion, del, motions, getDefaultTopic }
-//---------------------------------------------------------------------------------------------------------
+    //---------------------------------------------------------------------------------------------------------
     const script = async () => {
-        
+
     }
-//---------------------------------------------------------------------------------------------------------
+    //---------------------------------------------------------------------------------------------------------
     return (
         <div className="loadMotions">
             <div className="loadedMotionsHeaderContainer">
@@ -235,11 +235,11 @@ export const LoadMotions = () => {
                     exportFile={downloadJSON}
                 />
             </div>
-{/*--------------------------------------Hide-this-by-default-------------------------------------------------*/}
+            {/*--------------------------------------Hide-this-by-default-------------------------------------------------*/}
             {/* <div className="motionScriptContainer">
                 <button className="runMotionScript" onClick={script}>Run Script</button>
             </div> */}
-{/*--------------------------------------Ultra-Dangerous-Hidden-Dark-Magic------------------------------------*/}
+            {/*--------------------------------------Ultra-Dangerous-Hidden-Dark-Magic------------------------------------*/}
             <div className="displayExistingMotions">
                 {
                     loading ? <div className="loadingMotionMessage">Loading</div> :

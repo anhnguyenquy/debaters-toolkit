@@ -1,7 +1,7 @@
-import { Table, EditableText, EditableTextArea, EditableSelector } from '../../../../../../components'
-import { tableClassNames } from '../../../../../../helpers/data/tableClassNames'
-import { topics } from '../../../../../../helpers/data/topics'
-import { formats } from '../../../../../../helpers/data/formats'
+import { Table, EditableText, EditableTextArea, EditableSelector } from '../../../../../../core/components'
+import { tableClassNames } from '../../../../../../core/constants/tableClassNames'
+import { topics } from '../../../../../../core/constants/topics'
+import { formats } from '../../../../../../core/constants/formats'
 export const TablePC = (props) => {
     const { updateRequest, del, requests, getDefaultFormat, getDefaultTopic, addToDatabase } = props
     return (

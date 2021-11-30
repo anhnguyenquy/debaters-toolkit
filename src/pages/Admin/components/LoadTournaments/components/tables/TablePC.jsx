@@ -1,5 +1,5 @@
-import { Table, EditableText } from '../../../../../../components'
-import { tableClassNames } from '../../../../../../helpers/data/tableClassNames'
+import { Table, EditableText } from '../../../../../../core/components'
+import { tableClassNames } from '../../../../../../core/constants/tableClassNames'
 export const TablePC = (props) => {
     const { updateTournament, del, tournaments } = props
     return (

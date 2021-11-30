@@ -1,9 +1,9 @@
-import { Table, EditableText, EditableTextArea, EditableSelector } from '../../../../../../components'
-import { tableClassNames } from '../../../../../../helpers/data/tableClassNames'
-import { topicsForMotions } from '../../../../../../helpers/data/topicsForMotions'
+import { Table, EditableText, EditableTextArea, EditableSelector } from '../../../../../../core/components'
+import { tableClassNames } from '../../../../../../core/constants/tableClassNames'
+import { topicsForMotions } from '../../../../../../core/constants/topicsForMotions'
 import Select, { components } from 'react-select'
-import { customTheme } from '../../../../../../helpers/data/customTheme'
-import { ValueContainer, MultiValueContainer, Placeholder, Option } from '../../../../../../components/SelectComponents'
+import { customTheme } from '../../../../../../core/constants/customTheme'
+import { ValueContainer, MultiValueContainer, Placeholder, Option } from '../../../../../../core/components/SelectComponents'
 import { useEffect, useState } from 'react'
 export const TablePC = (props) => {
     const { updateMotion, del, motions, getDefaultTopic } = props

@@ -2,12 +2,12 @@ import Select from 'react-select'
 import { useEffect, useState } from 'react'
 import { firebaseFirestore } from '../../firebase'
 import TextareaAutosize from 'react-textarea-autosize'
-import { Placeholder, SingleValue, Option, Input } from '../../components/SelectComponents'
-import { Table } from '../../components'
+import { Placeholder, SingleValue, Option, Input } from '../../core/components/SelectComponents'
+import { Table } from '../../core/components'
 import { languageStyle, topicStyle, tournamentStyle } from './styles'
-import { getTourneyInfo } from '../../helpers'
-import { tableClassNames, topics, languages, customTheme } from '../../helpers/data'
-import tournamentOptions from '../../helpers/data/tournamentOptions.json'
+import { getTourneyInfo } from '../../core/helpers'
+import { tableClassNames, topics, languages, customTheme } from '../../core/constants'
+import tournamentOptions from '../../core/constants/tournamentOptions.json'
 import './style.css'
 export const MotionDatabase = () => {
     const [topic, setTopic] = useState('')
@@ -21,28 +21,28 @@ export const MotionDatabase = () => {
     function changeTopic(val) {
         setConfigJustChanged(true)
         if (val == null) {
-            setTopic('');
+            setTopic('')
         }
         else {
-            setTopic(val.value);
+            setTopic(val.value)
         }
     }
     function changeLanguage(val) {
         setConfigJustChanged(true)
         if (val == null) {
-            setLanguage('');
+            setLanguage('')
         }
         else {
-            setLanguage(val.value);
+            setLanguage(val.value)
         }
     }
     function changeTournament(val) {
         setConfigJustChanged(true)
         if (val == null) {
-            setTournament('');
+            setTournament('')
         }
         else {
-            setTournament(val.value);
+            setTournament(val.value)
         }
     }
     const changeMax = (e) => {
@@ -67,7 +67,7 @@ export const MotionDatabase = () => {
             if (tournament != '') {
                 motionsRef = motionsRef.where('tournamentID', '==', tournament)
             }
-            let motionDataRaw = await motionsRef.limit(max).get();
+            let motionDataRaw = await motionsRef.limit(max).get()
             let motionDataSorted = []
             const preliminaryMotions = []
             const octofinals = []

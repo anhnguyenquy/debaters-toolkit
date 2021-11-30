@@ -1,5 +1,5 @@
-import { Table, EditableTextArea } from '../../../../../../components'
-import { tableClassNames } from '../../../../../../helpers/data/tableClassNames'
+import { Table, EditableTextArea } from '../../../../../../core/components'
+import { tableClassNames } from '../../../../../../core/constants/tableClassNames'
 export const TableTablet = (props) => {
     const {updateMotion, del, motions} = props
     return (

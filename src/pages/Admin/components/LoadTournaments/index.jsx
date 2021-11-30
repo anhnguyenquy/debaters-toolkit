@@ -3,9 +3,9 @@ import Select from 'react-select'
 import DownloadLink from 'react-download-link'
 import { useState, useRef } from 'react'
 import { firebaseFirestore } from '../../../../firebase'
-import { formats, customTheme } from '../../../../helpers/data'
-import tournamentOptions from '../../../../helpers/data/tournamentOptions.json'
-import { useDeviceBreakPoint } from '../../../../hooks'
+import { formats, customTheme } from '../../../../core/constants'
+import tournamentOptions from '../../../../core/constants/tournamentOptions.json'
+import { useDeviceBreakPoint } from '../../../../core/hooks'
 import { TablePC, TablePhone, TableTablet } from './components/tables'
 export const LoadTournaments = () => {
     const { isPhone, isTablet } = useDeviceBreakPoint()
@@ -53,10 +53,10 @@ export const LoadTournaments = () => {
     }
     function changeTournament(val) {
         if (val == null) {
-            setID('');
+            setID('')
         }
         else {
-            setID(val.value);
+            setID(val.value)
         }
     }
     function changeTournamentID(e) {
@@ -83,14 +83,14 @@ export const LoadTournaments = () => {
         }
     }
     const del = (id) => {
-        firebaseFirestore.collection("tournaments").doc(id).delete();
+        firebaseFirestore.collection("tournaments").doc(id).delete()
         const newTournaments = tournaments.filter(tournament => {
             return (tournament.id !== id)
         })
         setTournaments(newTournaments)
     }
     function changeFormat(val) {
-        setFormat(val.value);
+        setFormat(val.value)
     }
     const updateTournament = async (fieldName, newValue, id) => {
         const tournamentsRef = firebaseFirestore.collection('tournaments').doc(id)
