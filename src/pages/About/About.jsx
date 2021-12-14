@@ -23,7 +23,7 @@ export const About = () => {
                 <div className="aboutSubHeader">Follow me on social media or support my work by becoming a Patron:</div>
                 <div className="icons">
                     <a href="https://www.facebook.com/debaters.toolkit/"><button><i class="fab fa-facebook-square"></i></button></a>
-                    <a href="https://twitter.com/ANQ_SocDem"><button><i class="fab fa-twitter-square"></i></button></a>
+                    <a href="https://twitter.com/AnhNguyen_ML"><button><i class="fab fa-twitter-square"></i></button></a>
                     <a href="https://github.com/anhnguyenquy"><button><i class="fab fa-github-square"></i></button></a>
                     <a href="https://www.patreon.com/user?u=60734242"><button><i class="fab fa-patreon"></i></button></a>
                 </div>

@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom/cjs/react-router-dom.js'
 import { HomePage, MotionGenerator, AdminPage, BreakCalculator, MotionDatabase, SubmitNewMotion, DebateKeeper, About } from './pages';
 import { NavBar } from './core/components'
 import React from 'react';
