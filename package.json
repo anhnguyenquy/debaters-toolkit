@@ -82,7 +82,7 @@
       "last 1 safari version"
     ]
   },
-  "packageManager": "npm@8.1.2",
+  "packageManager": "yarn@3.1.1",
   "devDependencies": {
     "concurrently": "^6.4.0",
     "electron": "^16.0.2",
