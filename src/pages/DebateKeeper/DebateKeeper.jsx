@@ -1,7 +1,8 @@
 import { useEffect } from 'react'
-import { TimerPC } from './TimerPC'
-import { TimerMobile } from './TimerMobile'
-import { isBrowser } from 'react-device-detect'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { useHistory } from 'react-router'
+import { Helmet } from 'react-helmet'
+import { Timer } from './Timer'
 import {
   BP,
   WSDC,
@@ -12,9 +13,7 @@ import {
   CP_PMRE_SPLIT_OPP,
   CP_PMRE,
   CP_SPLIT_OPP,
-} from './TimerPC/formats'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import { useHistory } from 'react-router'
+} from './Timer/formats'
 import './style.css'
 
 export const DebateKeeper = () => {
@@ -24,36 +23,43 @@ export const DebateKeeper = () => {
       history.push('/keeper/bp')
     }
   }, [])
-
   return (
     <div className='debateKeeper'>
+      <Helmet>
+        <title>Debate Timekeeper</title>
+        <meta name='description' content='Do debate timekeeping online.' />
+        <link
+          rel='canonical'
+          href='https://www.debaterstoolkit.com/keeper'
+        />
+      </Helmet>
       <Switch>
         <Route path='/keeper/bp'>
-          {isBrowser ? <TimerPC format={BP} /> : <TimerMobile format={BP} />}
+          <Timer format={BP} />
         </Route>
         <Route path='/keeper/wsdc'>
-          {isBrowser ? <TimerPC format={WSDC} /> : <TimerMobile format={WSDC} />}
+          <Timer format={WSDC} />
         </Route>
         <Route path='/keeper/ap'>
-          {isBrowser ? <TimerPC format={AP} /> : <TimerMobile format={AP} />}
+          <Timer format={AP} />
         </Route>
         <Route path='/keeper/australs'>
-          {isBrowser ? <TimerPC format={Australs} /> : <TimerMobile format={Australs} />}        
+          <Timer format={Australs} />
         </Route>
         <Route path='/keeper/bp5min'>
-          {isBrowser ? <TimerPC format={BP5min} /> : <TimerMobile format={BP5min} />}
+          <Timer format={BP5min} />
         </Route>
         <Route path='/keeper/cp'>
-          {isBrowser ? <TimerPC format={CP} /> : <TimerMobile format={CP} />}        
+          <Timer format={CP} />
         </Route>
         <Route path='/keeper/cp_pmre_split_opp'>
-          {isBrowser ? <TimerPC format={CP_PMRE_SPLIT_OPP} /> : <TimerMobile format={CP_PMRE_SPLIT_OPP} />}      
+          <Timer format={CP_PMRE_SPLIT_OPP} />
         </Route>
         <Route path='/keeper/cp_pmre'>
-          {isBrowser ? <TimerPC format={CP_PMRE} /> : <TimerMobile format={CP_PMRE} />}      
+          <Timer format={CP_PMRE} />
         </Route>
         <Route path='/keeper/cp_split_opp'>
-          {isBrowser ? <TimerPC format={CP_SPLIT_OPP} /> : <TimerMobile format={CP_SPLIT_OPP} />}      
+          <Timer format={CP_SPLIT_OPP} />
         </Route>
       </Switch>
     </div>

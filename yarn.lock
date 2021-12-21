@@ -1505,16 +1505,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@capacitor/android@npm:3.3.2":
-  version: 3.3.2
-  resolution: "@capacitor/android@npm:3.3.2"
+"@capacitor/android@npm:^3.3.3":
+  version: 3.3.3
+  resolution: "@capacitor/android@npm:3.3.3"
   peerDependencies:
     "@capacitor/core": ^3.3.0
-  checksum: fdb03e853c86cd8d7d1f1ab6a55bff277c209d4b93deac173381cd0cb4589001019d9552a8baef2bd3985a7cd0679cfdaae4ff9c536ed14b846df93462615359
+  checksum: 45b3fff32b23f43837a9a58e80b44dbf9c0142da4cd57fc71366bf5c1b670c4799bc95adbf86e5fc4f4bf7a99c05f09fbbe1225ff98f1bc201c405f4c64c5e85
   languageName: node
   linkType: hard
 
-"@capacitor/cli@npm:^3.2.0":
+"@capacitor/cli@npm:^3.3.3":
   version: 3.3.3
   resolution: "@capacitor/cli@npm:3.3.3"
   dependencies:
@@ -1541,7 +1541,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@capacitor/core@npm:^3.3.2":
+"@capacitor/core@npm:^3.3.3":
   version: 3.3.3
   resolution: "@capacitor/core@npm:3.3.3"
   dependencies:
@@ -3624,7 +3624,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-transition-group@npm:^4.4.4":
+"@types/react-select@npm:^5.0.1":
+  version: 5.0.1
+  resolution: "@types/react-select@npm:5.0.1"
+  dependencies:
+    react-select: "*"
+  checksum: d0d378336a4f4875b6f1d0ed42ac7561fec54e09f3466b58d8ade2715c6046791bcac2012ef8f83673608a075c09ea788406e60b2a9eadd159d8443089bc166d
+  languageName: node
+  linkType: hard
+
+"@types/react-transition-group@npm:^4.4.0, @types/react-transition-group@npm:^4.4.4":
   version: 4.4.4
   resolution: "@types/react-transition-group@npm:4.4.4"
   dependencies:
@@ -7086,9 +7095,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "debaters-toolkit@workspace:."
   dependencies:
-    "@capacitor/android": 3.3.2
-    "@capacitor/cli": ^3.2.0
-    "@capacitor/core": ^3.3.2
+    "@capacitor/android": ^3.3.3
+    "@capacitor/cli": ^3.3.3
+    "@capacitor/core": ^3.3.3
     "@mui/icons-material": ^5.2.4
     "@mui/lab": ^5.0.0-alpha.60
     "@mui/material": ^5.2.4
@@ -7096,6 +7105,7 @@ __metadata:
     "@testing-library/jest-dom": ^5.14.1
     "@testing-library/react": ^11.2.7
     "@testing-library/user-event": ^12.8.3
+    "@types/react-select": ^5.0.1
     capacitor: ^0.5.5
     concurrently: ^6.4.0
     core-js: ^3.19.2
@@ -7114,6 +7124,7 @@ __metadata:
     react-device-detect: ^2.1.2
     react-dom: ^17.0.2
     react-download-link: ^2.3.0
+    react-helmet: ^6.1.0
     react-messenger-customer-chat: ^0.8.0
     react-responsive: ^8.2.0
     react-router-dom: ^5.2.0
@@ -15451,6 +15462,27 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-fast-compare@npm:^3.1.1":
+  version: 3.2.0
+  resolution: "react-fast-compare@npm:3.2.0"
+  checksum: 8ef272c825ae329f61633ce4ce7f15aa5b84e5214d88bc0823880236e03e985a13195befa2c7a4eda7db3b017dc7985729152d88445823f652403cf36c2b86aa
+  languageName: node
+  linkType: hard
+
+"react-helmet@npm:^6.1.0":
+  version: 6.1.0
+  resolution: "react-helmet@npm:6.1.0"
+  dependencies:
+    object-assign: ^4.1.1
+    prop-types: ^15.7.2
+    react-fast-compare: ^3.1.1
+    react-side-effect: ^2.1.0
+  peerDependencies:
+    react: ">=16.3.0"
+  checksum: a4998479dab7fc1c2799eddefb1870a9d881b5f71cfdf97979a9882e42f4bb50402d55335f308f461e735e01a06f46b16cc7b4e6bcb22c7a4a6f85a753c5c106
+  languageName: node
+  linkType: hard
+
 "react-input-autosize@npm:^3.0.0":
   version: 3.0.0
   resolution: "react-input-autosize@npm:3.0.0"
@@ -15623,6 +15655,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-select@npm:*":
+  version: 5.2.1
+  resolution: "react-select@npm:5.2.1"
+  dependencies:
+    "@babel/runtime": ^7.12.0
+    "@emotion/cache": ^11.4.0
+    "@emotion/react": ^11.1.1
+    "@types/react-transition-group": ^4.4.0
+    memoize-one: ^5.0.0
+    prop-types: ^15.6.0
+    react-transition-group: ^4.3.0
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  checksum: 014cde5d23ca466795bd7f02455769efda74522c41f11109ec2d6f0e3c77f401ea91ae23cdccce997efb653aa6ea88688a16f40e59bfdef2a2414d0cfd10f374
+  languageName: node
+  linkType: hard
+
 "react-select@npm:^4.3.1":
   version: 4.3.1
   resolution: "react-select@npm:4.3.1"
@@ -15638,6 +15688,15 @@ __metadata:
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
   checksum: e87e0b42a662ddce7957a69a3029ea769b22264c197cbd1d8bde1ce631e49c5c5f42414773364674a7a6a8431340e1ede49220583bf1dcd966b63e9bd25cfc12
+  languageName: node
+  linkType: hard
+
+"react-side-effect@npm:^2.1.0":
+  version: 2.1.1
+  resolution: "react-side-effect@npm:2.1.1"
+  peerDependencies:
+    react: ^16.3.0 || ^17.0.0
+  checksum: 324511ea8f6669555e166b4af280cdf46034bf0e33c486711e3ce17f88f6f21fed17055098408be1347657d0cbcd614bca944cf9f8e4ecfa96a21d13893fe9fc
   languageName: node
   linkType: hard
 
