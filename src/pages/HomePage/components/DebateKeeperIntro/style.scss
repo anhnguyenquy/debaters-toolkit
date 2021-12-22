@@ -1,63 +1,55 @@
 .debateKeeperInfo {
-    height: 100vh;
-    min-height: 37.5rem;
-    background-color: #96d4d4;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: "Source Sans Pro", sans-serif;
-    a {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-decoration: none;
-        margin: 1rem;
-        height: 2rem;
-        border-radius: 20px;
-    }
-    .debateKeeperTitle {
-        font-size: 3rem;
-        font-weight: bold;
-    }
-    .debateKeeperSubHeader {
-        font-size: 1.3rem;
-    }
-    button {
-        color: white;
-        height: 100%;
-        background-color: #282a35;
-        border: none;
-        padding: 0.5rem 1rem 0.5rem 1rem;
-        border-radius: 20px;
-        font-weight: bold;
-    }
-    button:hover {
-        background-color: #000000;
-    }
+  height: 100vh;
+  min-height: 37.5rem;
+  background-color: #96d4d4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  .debateKeeperTitle {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .debateKeeperSubHeader {
+    font-size: 1.3rem;
+  }
+  button {
+    color: white;
+    margin: 1rem;
+    height: 2rem;
+    background-color: #282a35;
+    border: none;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  button:hover {
+    background-color: #000000;
+  }
 }
 @media only screen and (max-width: 379px) {
-    .debateKeeperInfo {
-        .debateKeeperTitle {
-            font-size: 2.3rem;
-        }
-        .debateKeeperSubHeader {
-            font-size: 0.9rem;
-        }
-        button {
-            padding: 0.5rem 0.7rem 0.5rem 0.7rem;
-        }
+  .debateKeeperInfo {
+    .debateKeeperTitle {
+      font-size: 2.3rem;
     }
+    .debateKeeperSubHeader {
+      font-size: 0.9rem;
+    }
+    button {
+      padding: 0.5rem 0.7rem 0.5rem 0.7rem;
+    }
+  }
 }
 @media only screen and (max-width: 425px) and (min-width: 380px) {
-    .debateKeeperInfo {
-        .debateKeeperTitle {
-            font-size: 2.5rem;
-        }
-        .debateKeeperSubHeader {
-            font-size: 1rem;
-        }
+  .debateKeeperInfo {
+    .debateKeeperTitle {
+      font-size: 2.5rem;
     }
+    .debateKeeperSubHeader {
+      font-size: 1rem;
+    }
+  }
 }
 @media only screen and (max-width: 768px) and (min-width: 426px) {
 }
