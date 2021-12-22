@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import { useHistory } from 'react-router'
 import { Helmet } from 'react-helmet'
+import { isBrowser } from 'react-device-detect'
 import { Timer } from './Timer'
 import {
   BP,
@@ -28,40 +29,41 @@ export const DebateKeeper = () => {
       <Helmet>
         <title>Debate Timekeeper</title>
         <meta name='description' content='Do debate timekeeping online.' />
-        <link
-          rel='canonical'
-          href='https://www.debaterstoolkit.com/keeper'
-        />
+        <link rel='canonical' href='https://www.debaterstoolkit.com/keeper' />
       </Helmet>
-      <Switch>
-        <Route path='/keeper/bp'>
-          <Timer format={BP} />
-        </Route>
-        <Route path='/keeper/wsdc'>
-          <Timer format={WSDC} />
-        </Route>
-        <Route path='/keeper/ap'>
-          <Timer format={AP} />
-        </Route>
-        <Route path='/keeper/australs'>
-          <Timer format={Australs} />
-        </Route>
-        <Route path='/keeper/bp5min'>
-          <Timer format={BP5min} />
-        </Route>
-        <Route path='/keeper/cp'>
-          <Timer format={CP} />
-        </Route>
-        <Route path='/keeper/cp_pmre_split_opp'>
-          <Timer format={CP_PMRE_SPLIT_OPP} />
-        </Route>
-        <Route path='/keeper/cp_pmre'>
-          <Timer format={CP_PMRE} />
-        </Route>
-        <Route path='/keeper/cp_split_opp'>
-          <Timer format={CP_SPLIT_OPP} />
-        </Route>
-      </Switch>
+      {isBrowser ? (
+        <Switch>
+          <Route path='/keeper/bp'>
+            <Timer format={BP} />
+          </Route>
+          <Route path='/keeper/wsdc'>
+            <Timer format={WSDC} />
+          </Route>
+          <Route path='/keeper/ap'>
+            <Timer format={AP} />
+          </Route>
+          <Route path='/keeper/australs'>
+            <Timer format={Australs} />
+          </Route>
+          <Route path='/keeper/bp5min'>
+            <Timer format={BP5min} />
+          </Route>
+          <Route path='/keeper/cp'>
+            <Timer format={CP} />
+          </Route>
+          <Route path='/keeper/cp_pmre_split_opp'>
+            <Timer format={CP_PMRE_SPLIT_OPP} />
+          </Route>
+          <Route path='/keeper/cp_pmre'>
+            <Timer format={CP_PMRE} />
+          </Route>
+          <Route path='/keeper/cp_split_opp'>
+            <Timer format={CP_SPLIT_OPP} />
+          </Route>
+        </Switch>
+      ) : (
+        <>Not Browser</>
+      )}
     </div>
   )
 }

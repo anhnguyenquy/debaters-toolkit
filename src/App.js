@@ -1,9 +1,5 @@
-import './App.css'
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-} from 'react-router-dom'
+import React from 'react'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import {
   HomePage,
   MotionGenerator,
@@ -15,11 +11,13 @@ import {
   About,
 } from './pages'
 import { NavBar } from './core/components'
-import React from 'react'
+import { useStyles } from './appStyle'
+
 export default function App() {
+  const classes = useStyles()
   return (
     <Router>
-      <div className='App'>
+      <div className={classes['App']}>
         <NavBar />
         <Switch>
           <Route exact={true} path='/'>
