@@ -42,10 +42,11 @@
     "react-responsive": "^8.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
-    "react-select": "^4.3.1",
+    "react-select": "^5.2.1",
     "react-textarea-autosize": "^8.3.3",
     "readdirp": "^3.6.0",
     "resolve-url-loader": "^4.0.0",
+    "styled-jsx": "^4.0.1",
     "svgo": "^2.4.0",
     "web-vitals": "^1.1.2",
     "webpack": "4.44.2"
