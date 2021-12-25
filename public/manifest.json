@@ -1,18 +1,47 @@
 {
   "name": "Debaters' toolkit",
-  "short_name": "Debaters' toolkit", "categories": [
+  "short_name": "Debaters' toolkit", 
+  "categories": [
     "education",
     "sports",
     "utilities"
   ],
+  "description": "Generate a random debate motion, search our database of over 7000 motions, calculate break chances or do debate timekeeping.",
+  "screenshots": [
+    {
+      "src": "media/screenshots/1.png",
+      "sizes": "1800x2040",
+      "type": "image/png"
+    },
+    {
+      "src": "media/screenshots/2.png",
+      "sizes": "1800x2040",
+      "type": "image/png"
+    },
+    {
+      "src": "media/screenshots/3.png",
+      "sizes": "1800x2040",
+      "type": "image/png"
+    },
+    {
+      "src": "media/screenshots/4.png",
+      "sizes": "1800x2040",
+      "type": "image/png"
+    },
+    {
+      "src": "media/screenshots/5.png",
+      "sizes": "1800x2040",
+      "type": "image/png"
+    }
+  ],
   "icons": [
     {
-      "src": "icons/android-chrome-192x192.png",
+      "src": "media/icons/android-chrome-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "icons/android-chrome-512x512.png",
+      "src": "media/icons/android-chrome-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
@@ -24,12 +53,12 @@
       "description": "Generate a random debate motion",
       "url": "/generator",
       "icons": [
-        { "src": "/icons/generator/36x36.png", "sizes": "36x36" },
-        { "src": "/icons/generator/48x48.png", "sizes": "48x48" },
-        { "src": "/icons/generator/72x72.png", "sizes": "72x72" },
-        { "src": "/icons/generator/96x96.png", "sizes": "96x96" },
-        { "src": "/icons/generator/144x144.png", "sizes": "144x144" },
-        { "src": "/icons/generator/192x192.png", "sizes": "192x192" }
+        { "src": "/media/icons/generator/36x36.png", "sizes": "36x36" },
+        { "src": "/media/icons/generator/48x48.png", "sizes": "48x48" },
+        { "src": "/media/icons/generator/72x72.png", "sizes": "72x72" },
+        { "src": "/media/icons/generator/96x96.png", "sizes": "96x96" },
+        { "src": "/media/icons/generator/144x144.png", "sizes": "144x144" },
+        { "src": "/media/icons/generator/192x192.png", "sizes": "192x192" }
       ]
     },
     {
@@ -38,12 +67,12 @@
       "description": "Search for motions from the database",
       "url": "/database",
       "icons": [
-        { "src": "/icons/database/36x36.png", "sizes": "36x36" },
-        { "src": "/icons/database/48x48.png", "sizes": "48x48" },
-        { "src": "/icons/database/72x72.png", "sizes": "72x72" },
-        { "src": "/icons/database/96x96.png", "sizes": "96x96" },
-        { "src": "/icons/database/144x144.png", "sizes": "144x144" },
-        { "src": "/icons/database/192x192.png", "sizes": "192x192" }
+        { "src": "/media/icons/database/36x36.png", "sizes": "36x36" },
+        { "src": "/media/icons/database/48x48.png", "sizes": "48x48" },
+        { "src": "/media/icons/database/72x72.png", "sizes": "72x72" },
+        { "src": "/media/icons/database/96x96.png", "sizes": "96x96" },
+        { "src": "/media/icons/database/144x144.png", "sizes": "144x144" },
+        { "src": "/media/icons/database/192x192.png", "sizes": "192x192" }
       ]
     },
     {
@@ -52,12 +81,12 @@
       "description": "Calculate break chances in AP, WSDC, or BP tournaments",
       "url": "/break_calculator",
       "icons": [
-        { "src": "/icons/break-calculator/36x36.png", "sizes": "36x36" },
-        { "src": "/icons/break-calculator/48x48.png", "sizes": "48x48" },
-        { "src": "/icons/break-calculator/72x72.png", "sizes": "72x72" },
-        { "src": "/icons/break-calculator/96x96.png", "sizes": "96x96" },
-        { "src": "/icons/break-calculator/144x144.png", "sizes": "144x144" },
-        { "src": "/icons/break-calculator/192x192.png", "sizes": "192x192" }
+        { "src": "/media/icons/break-calculator/36x36.png", "sizes": "36x36" },
+        { "src": "/media/icons/break-calculator/48x48.png", "sizes": "48x48" },
+        { "src": "/media/icons/break-calculator/72x72.png", "sizes": "72x72" },
+        { "src": "/media/icons/break-calculator/96x96.png", "sizes": "96x96" },
+        { "src": "/media/icons/break-calculator/144x144.png", "sizes": "144x144" },
+        { "src": "/media/icons/break-calculator/192x192.png", "sizes": "192x192" }
       ]
     },
     {
@@ -66,12 +95,12 @@
       "description": "Do debate timekeeping",
       "url": "/keeper",
       "icons": [
-        { "src": "/icons/timekeeper/36x36.png", "sizes": "36x36" },
-        { "src": "/icons/timekeeper/48x48.png", "sizes": "48x48" },
-        { "src": "/icons/timekeeper/72x72.png", "sizes": "72x72" },
-        { "src": "/icons/timekeeper/96x96.png", "sizes": "96x96" },
-        { "src": "/icons/timekeeper/144x144.png", "sizes": "144x144" },
-        { "src": "/icons/timekeeper/192x192.png", "sizes": "192x192" }
+        { "src": "/media/icons/timekeeper/36x36.png", "sizes": "36x36" },
+        { "src": "/media/icons/timekeeper/48x48.png", "sizes": "48x48" },
+        { "src": "/media/icons/timekeeper/72x72.png", "sizes": "72x72" },
+        { "src": "/media/icons/timekeeper/96x96.png", "sizes": "96x96" },
+        { "src": "/media/icons/timekeeper/144x144.png", "sizes": "144x144" },
+        { "src": "/media/icons/timekeeper/192x192.png", "sizes": "192x192" }
       ]
     }
   ],
