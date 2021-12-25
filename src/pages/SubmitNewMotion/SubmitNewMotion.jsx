@@ -89,7 +89,7 @@ export const SubmitNewMotion = () => {
         />
         <link rel='canonical' href='https://www.debaterstoolkit.com/new_motion' />
       </Helmet>
-      <div className='title'>
+      <div className='top-text'>
         Submit a request for a motion to be added to our Database
       </div>
       <div className='details'>
