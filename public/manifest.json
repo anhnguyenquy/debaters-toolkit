@@ -13,6 +13,78 @@
       "type": "image/png"
     }
   ],
+  "shortcuts": [
+    {
+      "name": "Motion Generator",
+      "short_name": "Generator",
+      "description": "Generate a random debate motion",
+      "url": "/generator",
+      "icons": [
+        { "src": "/icons/generator/36x36.png", "sizes": "36x36" },
+        { "src": "/icons/generator/48x48.png", "sizes": "48x48" },
+        { "src": "/icons/generator/72x72.png", "sizes": "72x72" },
+        { "src": "/icons/generator/96x96.png", "sizes": "96x96" },
+        { "src": "/icons/generator/144x144.png", "sizes": "144x144" },
+        { "src": "/icons/generator/192x192.png", "sizes": "192x192" }
+      ]
+    },
+    {
+      "name": "Motion Database",
+      "short_name": "Database",
+      "description": "Search for motions from the database",
+      "url": "/database",
+      "icons": [
+        { "src": "/icons/database/36x36.png", "sizes": "36x36" },
+        { "src": "/icons/database/48x48.png", "sizes": "48x48" },
+        { "src": "/icons/database/72x72.png", "sizes": "72x72" },
+        { "src": "/icons/database/96x96.png", "sizes": "96x96" },
+        { "src": "/icons/database/144x144.png", "sizes": "144x144" },
+        { "src": "/icons/database/192x192.png", "sizes": "192x192" }
+      ]
+    },
+    {
+      "name": "Submit new motion(s)",
+      "short_name": "Submit",
+      "description": "Submit motion(s) to be added to the database",
+      "url": "/new_motion",
+      "icons": [
+        { "src": "/icons/new-motion/36x36.png", "sizes": "36x36" },
+        { "src": "/icons/new-motion/48x48.png", "sizes": "48x48" },
+        { "src": "/icons/new-motion/72x72.png", "sizes": "72x72" },
+        { "src": "/icons/new-motion/96x96.png", "sizes": "96x96" },
+        { "src": "/icons/new-motion/144x144.png", "sizes": "144x144" },
+        { "src": "/icons/new-motion/192x192.png", "sizes": "192x192" }
+      ]
+    },
+    {
+      "name": "Break Calculator",
+      "short_name": "Calculator",
+      "description": "Calculate break chances in AP, WSDC, or BP tournaments",
+      "url": "/break_calculator",
+      "icons": [
+        { "src": "/icons/break-calculator/36x36.png", "sizes": "36x36" },
+        { "src": "/icons/break-calculator/48x48.png", "sizes": "48x48" },
+        { "src": "/icons/break-calculator/72x72.png", "sizes": "72x72" },
+        { "src": "/icons/break-calculator/96x96.png", "sizes": "96x96" },
+        { "src": "/icons/break-calculator/144x144.png", "sizes": "144x144" },
+        { "src": "/icons/break-calculator/192x192.png", "sizes": "192x192" }
+      ]
+    },
+    {
+      "name": "Debate Timekeeper",
+      "short_name": "Timekeeper",
+      "description": "Do debate timekeeping",
+      "url": "/keeper",
+      "icons": [
+        { "src": "/icons/timekeeper/36x36.png", "sizes": "36x36" },
+        { "src": "/icons/timekeeper/48x48.png", "sizes": "48x48" },
+        { "src": "/icons/timekeeper/72x72.png", "sizes": "72x72" },
+        { "src": "/icons/timekeeper/96x96.png", "sizes": "96x96" },
+        { "src": "/icons/timekeeper/144x144.png", "sizes": "144x144" },
+        { "src": "/icons/timekeeper/192x192.png", "sizes": "192x192" }
+      ]
+    }
+  ],
   "id": "/",
   "start_url": "/",
   "display": "standalone",
