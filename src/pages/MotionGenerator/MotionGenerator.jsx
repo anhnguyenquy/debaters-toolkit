@@ -1,6 +1,7 @@
+import { useState, useEffect } from 'react'
 import { Helmet } from 'react-helmet'
 import Select from 'react-select'
-import { useState, useEffect } from 'react'
+import MessengerCustomerChat from 'react-messenger-customer-chat'
 import {
   Placeholder,
   SingleValue,
@@ -96,6 +97,10 @@ export const MotionGenerator = () => {
           href='https://www.debaterstoolkit.com/generator'
         />
       </Helmet>
+      <MessengerCustomerChat
+        pageId={process.env.REACT_APP_FB_PAGE_ID}
+        appId={process.env.REACT_APP_FB_APP_ID}
+      />
       <div className='options'>
         <Select
           className='option'
@@ -144,11 +149,11 @@ export const MotionGenerator = () => {
         style={
           loading
             ? {
-              display: 'flex',
-              margin: '1rem',
-              width: '100%',
-              justifyContent: 'center',
-            }
+                display: 'flex',
+                margin: '1rem',
+                width: '100%',
+                justifyContent: 'center',
+              }
             : { display: 'none' }
         }
       >

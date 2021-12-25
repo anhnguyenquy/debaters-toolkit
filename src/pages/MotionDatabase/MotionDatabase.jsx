@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet'
 import { useEffect, useState } from 'react'
 import { firebaseFirestore } from '../../firebase'
 import TextareaAutosize from 'react-textarea-autosize'
+import MessengerCustomerChat from 'react-messenger-customer-chat'
 import {
   Placeholder,
   SingleValue,
@@ -152,6 +153,10 @@ export const MotionDatabase = () => {
         />
         <link rel='canonical' href='https://www.debaterstoolkit.com/database' />
       </Helmet>
+      <MessengerCustomerChat
+        pageId={process.env.REACT_APP_FB_PAGE_ID}
+        appId={process.env.REACT_APP_FB_APP_ID}
+      />
       <div className='pageTitle'>Search for motions from our database:</div>
       <div className='motionFilters'>
         <Select

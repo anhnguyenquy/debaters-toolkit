@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Helmet } from 'react-helmet'
+import Select from 'react-select'
 import { Result } from './Result'
 import {
   Placeholder,
@@ -9,7 +10,7 @@ import {
 import { customTheme } from '../../core/constants'
 import { formatStyle } from './formatStyle'
 import { calculateBreaks } from '../../core/helpers'
-import Select from 'react-select'
+import MessengerCustomerChat from 'react-messenger-customer-chat'
 import './style.css'
 
 export const BreakCalculator = () => {
@@ -53,6 +54,10 @@ export const BreakCalculator = () => {
           href='https://www.debaterstoolkit.com/break_calculator'
         />
       </Helmet>
+      <MessengerCustomerChat
+        pageId={process.env.REACT_APP_FB_PAGE_ID}
+        appId={process.env.REACT_APP_FB_APP_ID}
+      />
       <div className='page-title'>Break Calculator</div>
       <div className='inputs'>
         <input

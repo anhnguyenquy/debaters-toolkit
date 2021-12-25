@@ -5,7 +5,8 @@ import {
   BreakCalculatorIntro,
   DebateKeeperIntro,
 } from './components'
-import { InformationContainer } from '../../core/components'
+import { InformationContainer, FacebookChat } from '../../core/components'
+import MessengerCustomerChat from 'react-messenger-customer-chat'
 
 export const HomePage = () => {
   return (
@@ -18,6 +19,10 @@ export const HomePage = () => {
         />
         <link rel='canonical' href='https://www.debaterstoolkit.com/' />
       </Helmet>
+      <MessengerCustomerChat
+        pageId={process.env.REACT_APP_FB_PAGE_ID}
+        appId={process.env.REACT_APP_FB_APP_ID}
+      />
       <MotionGeneratorIntro />
       <MotionDatabaseIntro />
       <BreakCalculatorIntro />

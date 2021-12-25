@@ -1,5 +1,6 @@
 import { useState, useRef } from 'react'
 import { Helmet } from 'react-helmet'
+import MessengerCustomerChat from 'react-messenger-customer-chat'
 import { useForm } from '../../core/hooks'
 import { firebaseFirestore } from '../../firebase'
 import { Message } from '../../core/components'
@@ -83,12 +84,16 @@ export const SubmitNewMotion = () => {
     <div className='submitNewMotion'>
       <Helmet>
         <title>Submit new motions</title>
-        <meta
-          name='description'
-          content='Submit a new motion.'
+        <meta name='description' content='Submit a new motion.' />
+        <link
+          rel='canonical'
+          href='https://www.debaterstoolkit.com/new_motion'
         />
-        <link rel='canonical' href='https://www.debaterstoolkit.com/new_motion' />
       </Helmet>
+      <MessengerCustomerChat
+        pageId={process.env.REACT_APP_FB_PAGE_ID}
+        appId={process.env.REACT_APP_FB_APP_ID}
+      />
       <div className='top-text'>
         Submit a request for a motion to be added to our Database
       </div>

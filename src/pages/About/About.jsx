@@ -1,4 +1,5 @@
 import { Helmet } from 'react-helmet'
+import MessengerCustomerChat from 'react-messenger-customer-chat'
 import { useDeviceBreakPoint } from '../../core/hooks'
 import './style.scss'
 
@@ -9,11 +10,12 @@ export const About = () => {
       <Helmet>
         <title>About</title>
         <meta name='description' content='About this toolkit.' />
-        <link
-          rel='canonical'
-          href='https://www.debaterstoolkit.com/about'
-        />
+        <link rel='canonical' href='https://www.debaterstoolkit.com/about' />
       </Helmet>
+      <MessengerCustomerChat
+        pageId={process.env.REACT_APP_FB_PAGE_ID}
+        appId={process.env.REACT_APP_FB_APP_ID}
+      />
       <div className='topStuffs'>
         <div className='aboutHeader'>About</div>
         <div className='aboutSubHeader'>

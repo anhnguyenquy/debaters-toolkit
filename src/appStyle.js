@@ -7,12 +7,8 @@ const style = !isBrowser
         fontFamily: "'Lora', serif",
         width: '100vw',
         height: '100vh',
-        overflowX: 'hidden',
-        '&::selection': {
-          background: '#282a35',
-          color: 'white',
-        },
-      },
+        overflowX: 'hidden'
+      }
     }
   : {
       'App': {
@@ -20,10 +16,6 @@ const style = !isBrowser
         width: '100vw',
         height: '100vh',
         overflowX: 'hidden',
-        '&::selection': {
-          background: '#282a35',
-          color: 'white',
-        },
         '&::-webkit-scrollbar': {
           backgroundColor: '#F1F1F1 !important',
           width: '0.75rem',
@@ -38,9 +30,9 @@ const style = !isBrowser
           },
           '&:active': {
             backgroundColor: '#787878',
-          },
-        },
-      },
+          }
+        }
+      }
     }
 
 export const useStyles = makeStyles(style)
