@@ -63,7 +63,7 @@
     },
     "extends": null,
     "win": {
-      "icon": "public/favicon.ico"
+      "icon": "public/media/icons/electron.png"
     }
   },
   "homepage": "./",
