@@ -133,7 +133,7 @@ export const Timer = (props) => {
       if (
         timeCountUp ==
         format.periods[currentPeriod].bellAt[
-          format.periods[currentPeriod].bellAt.length - 2
+        format.periods[currentPeriod].bellAt.length - 2
         ]
       ) {
         //background to orange
@@ -304,14 +304,14 @@ export const Timer = (props) => {
               !isExtraSmall
                 ? { Placeholder, SingleValue, Option }
                 : { Placeholder, SingleValue, Option, IndicatorsContainer }
-            } //{ Placeholder, SingleValue, Option }
+            }
             styles={
               isPhone
                 ? formatStyleForPhone
                 : isExtraSmall
-                ? formatStyleForExtraSmall
-                : formatStyle
-            } //styles={isPhone ? formatStyleForPhone : formatStyle}
+                  ? formatStyleForExtraSmall
+                  : formatStyle
+            }
           />
         </div>
       </div>
@@ -319,47 +319,48 @@ export const Timer = (props) => {
         <div className='currentPeriod'>
           {format.periods[currentPeriod].name}
         </div>
-        {hasPrep ? (
-          <>
-            {currentPeriod == 0 ? (
-              <div className={`timeDisplay ${elapsed ? 'elapsed' : ''}`}>
-                {elapsed ? <>+ </> : <></>}
-                {minute < 10 ? <>0{minute}</> : <>{minute}</>} :{' '}
-                {second < 10 ? <>0{second}</> : <>{second}</>}
-              </div>
-            ) : (
-              <div className={`timeDisplay ${elapsed ? 'elapsed' : ''}`}>
-                {minuteCountUp < 10 ? (
-                  <>0{minuteCountUp}</>
-                ) : (
-                  <>{minuteCountUp}</>
-                )}{' '}
-                :{' '}
-                {secondCountUp < 10 ? (
-                  <>0{secondCountUp}</>
-                ) : (
-                  <>{secondCountUp}</>
-                )}
-              </div>
-            )}
-          </>
-        ) : (
-          //noprep
-          <div className={`timeDisplay ${elapsed ? 'elapsed' : ''}`}>
-            {minuteCountUp < 10 ? <>0{minuteCountUp}</> : <>{minuteCountUp}</>}{' '}
-            :{' '}
-            {secondCountUp < 10 ? <>0{secondCountUp}</> : <>{secondCountUp}</>}
-          </div>
-        )}
-        <div>
-          {format.periods[currentPeriod].hasPOI ? (
-            <button className='poiButton' onClick={startOrStopPOI}>
-              {poiOn ? poiCount : 'POI'}
-            </button>
-          ) : (
-            <div className='emptyDiv'></div>
-          )}
-        </div>
+        {
+          hasPrep ?
+            <>
+              {
+                currentPeriod == 0 ?
+                  <div className={`timeDisplay ${elapsed ? 'elapsed' : ''}`}>
+                    {elapsed ? <>+ </> : <></>}
+                    {minute < 10 ? <>0{minute}</> : <>{minute}</>} :{' '}
+                    {second < 10 ? <>0{second}</> : <>{second}</>}
+                  </div>
+                  :
+                  <div className={`timeDisplay ${elapsed ? 'elapsed' : ''} ${format.periods[currentPeriod].hasPOI ? 'timeDisplayWithPoi' : ''}`}>
+                    {
+                      minuteCountUp < 10 ?
+                        <>0{minuteCountUp}</>
+                        :
+                        <>{minuteCountUp}</>
+                    }{' '}
+                    :{' '}
+                    {
+                      secondCountUp < 10 ?
+                        <>0{secondCountUp}</>
+                        :
+                        <>{secondCountUp}</>
+                    }
+                  </div>
+              }
+            </>
+            :
+            // noprep
+            <div className={`timeDisplay ${elapsed ? 'elapsed' : ''} ${format.periods[currentPeriod].hasPOI ? 'timeDisplayWithPoi' : ''}`}>
+              {minuteCountUp < 10 ? <>0{minuteCountUp}</> : <>{minuteCountUp}</>}{' '}
+              :{' '}
+              {secondCountUp < 10 ? <>0{secondCountUp}</> : <>{secondCountUp}</>}
+            </div>
+        }
+        {
+          format.periods[currentPeriod].hasPOI &&
+          <button className='poiButton' onClick={startOrStopPOI} style={{ marginTop: '-2rem' }}>
+            {poiOn ? poiCount : 'POI'}
+          </button>
+        }
         <div className='bottomTexts'>
           {format.periods[currentPeriod].bottomTexts}
         </div>
