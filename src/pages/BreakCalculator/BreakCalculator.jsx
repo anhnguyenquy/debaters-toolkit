@@ -53,7 +53,7 @@ export const BreakCalculator = () => {
           href='https://www.debaterstoolkit.com/break_calculator'
         />
       </Helmet>
-      <div className='breakCalculatorTitle'>Break Calculator</div>
+      <div className='page-title'>Break Calculator</div>
       <div className='inputs'>
         <input
           className='inputItem'

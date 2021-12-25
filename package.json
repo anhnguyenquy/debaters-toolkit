@@ -63,7 +63,7 @@
     },
     "extends": null,
     "win": {
-      "icon": "build/favicon.ico"
+      "icon": "public/favicon.ico"
     }
   },
   "homepage": "./",

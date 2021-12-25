@@ -1,6 +1,10 @@
 {
   "name": "Debaters' toolkit",
-  "short_name": "Debaters' toolkit",
+  "short_name": "Debaters' toolkit", "categories": [
+    "education",
+    "sports",
+    "utilities"
+  ],
   "icons": [
     {
       "src": "icons/android-chrome-192x192.png",
@@ -43,20 +47,6 @@
       ]
     },
     {
-      "name": "Submit new motion(s)",
-      "short_name": "Submit",
-      "description": "Submit motion(s) to be added to the database",
-      "url": "/new_motion",
-      "icons": [
-        { "src": "/icons/new-motion/36x36.png", "sizes": "36x36" },
-        { "src": "/icons/new-motion/48x48.png", "sizes": "48x48" },
-        { "src": "/icons/new-motion/72x72.png", "sizes": "72x72" },
-        { "src": "/icons/new-motion/96x96.png", "sizes": "96x96" },
-        { "src": "/icons/new-motion/144x144.png", "sizes": "144x144" },
-        { "src": "/icons/new-motion/192x192.png", "sizes": "192x192" }
-      ]
-    },
-    {
       "name": "Break Calculator",
       "short_name": "Calculator",
       "description": "Calculate break chances in AP, WSDC, or BP tournaments",
@@ -89,5 +79,6 @@
   "start_url": "/",
   "display": "standalone",
   "theme_color": "#FFFFFF",
-  "background_color": "#FFFFFF"
+  "background_color": "#FFFFFF",
+  "android_package_name": "com.debaterstoolkit.android"
 }

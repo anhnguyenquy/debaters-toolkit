@@ -1,29 +1,29 @@
 .breakCalculator {
-    max-height: 93vh;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  max-height: 93vh;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.breakCalculatorTitle {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    font-size: 1rem;
+.page-title {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
 }
 .inputs {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
 }
 .inputs input {
-    font-family: "Lora", serif;
-    font-size: 0.8rem;
-    padding: 0.3rem;
-    padding-left: 0.6rem;
-    border-radius: 5px;
-    margin-top: 0;
-    border: 1.5px solid #e1e1e1;  
+  font-family: 'Lora', serif;
+  font-size: 0.8rem;
+  padding: 0.3rem;
+  padding-left: 0.6rem;
+  border-radius: 5px;
+  margin-top: 0;
+  border: 1.5px solid #e1e1e1;
 }
 .inputs input::-webkit-outer-spin-button,
 .inputs input::-webkit-inner-spin-button {
@@ -31,97 +31,97 @@
   margin: 0;
 }
 .inputItem {
-    width: 14rem;
-    margin: 0.2rem;
-    height: 2.33rem;
-    text-align: center;
+  width: 14rem;
+  margin: 0.2rem;
+  height: 2.33rem;
+  text-align: center;
 }
 .formatSelector {
-    width: 14rem;
-    margin: 0.2rem;
-    margin-top: 0.05rem;
-    font-size: 0.8rem;
+  width: 14rem;
+  margin: 0.2rem;
+  margin-top: 0.05rem;
+  font-size: 0.8rem;
 }
 .breakCalculator button {
-    background-color: #282a35;
-    font-family: "Source Sans Pro", sans-serif;
-    color: white;
-    font-weight: bolder;
-    border: none;
-    padding: 0.4rem 0.5rem 0.4rem 0.5rem;
-    border-radius: 10px;
-    font-size: 0.8rem;
+  background-color: #282a35;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  font-weight: bolder;
+  border: none;
+  padding: 0.4rem 0.5rem 0.4rem 0.5rem;
+  border-radius: 10px;
+  font-size: 0.8rem;
 }
 .breakCalculator button:hover {
-    background-color: #000000;
+  background-color: #000000;
 }
 .displayResults {
-    margin-top: 1.5rem;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  margin-top: 1.5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.caseContainer{
-    display: flex;
-    margin-top: 1rem;
-    width: 45%;
-    justify-content: space-between;
+.caseContainer {
+  display: flex;
+  margin-top: 1rem;
+  width: 45%;
+  justify-content: space-between;
 }
 .case {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .line1 {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 @media only screen and (max-width: 379px) {
-    .resultTitle {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        font-size: 0.75rem;
-    }
-    .caseContainer {
-        justify-content: space-around;
-        width: 100%;
-        font-size: 0.75rem;
-    }
+  .resultTitle {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 0.75rem;
+  }
+  .caseContainer {
+    justify-content: space-around;
+    width: 100%;
+    font-size: 0.75rem;
+  }
 }
 @media only screen and (max-width: 425px) and (min-width: 380px) {
-    .breakCalculatorTitle {
-        font-size: 0.9rem;
-    }
-    .resultTitle {
-        font-size: 0.9rem;
-    }
-    .caseContainer {
-        font-size: 0.8rem;
-        width: 95%;
-    }
-    .line1 {
-        margin-bottom: 0.5rem;
-    }
+  .page-title {
+    font-size: 0.9rem;
+  }
+  .resultTitle {
+    font-size: 0.9rem;
+  }
+  .caseContainer {
+    font-size: 0.8rem;
+    width: 95%;
+  }
+  .line1 {
+    margin-bottom: 0.5rem;
+  }
 }
 @media only screen and (max-width: 768px) and (min-width: 426px) {
-    .breakCalculatorTitle {
-        font-size: 1.3rem;
-    }
-    .formatSelector {
-        margin: 0.2rem;
-        margin-top: 0.05rem;
-    }
-    .inputs input {
-        font-size: 0.9rem;
-    }
-    .formatSelector {
-        font-size: 0.9rem;
-    }
-    .caseContainer {
-        width: 70%;
-    }
-    .breakCalculator button {
-        font-size: 0.9rem;
-    }
+  .page-title {
+    font-size: 1.3rem;
+  }
+  .formatSelector {
+    margin: 0.2rem;
+    margin-top: 0.05rem;
+  }
+  .inputs input {
+    font-size: 0.9rem;
+  }
+  .formatSelector {
+    font-size: 0.9rem;
+  }
+  .caseContainer {
+    width: 70%;
+  }
+  .breakCalculator button {
+    font-size: 0.9rem;
+  }
 }
