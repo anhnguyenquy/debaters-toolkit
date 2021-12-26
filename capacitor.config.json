@@ -1,5 +1,5 @@
 {
-    "appId": "io.ionic.debaterstoolkit",
+    "appId": "com.anhnguyenquy.debaterstoolkit",
     "appName": "Debaters' toolkit",
     "bundledWebRuntime": false,
     "npmClient": "npm",
