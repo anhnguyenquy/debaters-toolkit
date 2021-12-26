@@ -17,7 +17,7 @@ import { useStyles } from './appStyle'
 export default function App() {
   const classes = useStyles()
   useEffect(() => {
-    ReactGA.initialize('G-066Y4K9GFR')
+    ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_ID)
     ReactGA.pageview(window.location.pathname + window.location.search)
   }, [])
   return (
