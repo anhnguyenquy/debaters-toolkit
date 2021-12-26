@@ -1,5 +1,6 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import ReactGA from 'react-ga'
 import {
   HomePage,
   MotionGenerator,
@@ -15,6 +16,10 @@ import { useStyles } from './appStyle'
 
 export default function App() {
   const classes = useStyles()
+  useEffect(() => {
+    ReactGA.initialize('G-066Y4K9GFR')
+    ReactGA.pageview(window.location.pathname + window.location.search)
+  }, [])
   return (
     <Router>
       <div className={classes['App']}>
