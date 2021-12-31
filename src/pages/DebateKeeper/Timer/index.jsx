@@ -330,7 +330,7 @@ export const Timer = (props) => {
                     {second < 10 ? <>0{second}</> : <>{second}</>}
                   </div>
                   :
-                  <div className={`timeDisplay ${elapsed ? 'elapsed' : ''} ${format.periods[currentPeriod].hasPOI ? 'timeDisplayWithPoi' : ''}`}>
+                  <div className={`timeDisplay ${elapsed ? 'elapsed' : ''} ${format.periods[currentPeriod].hasPOI && isBrowser ? 'timeDisplayWithPoi' : ''}`}>
                     {
                       minuteCountUp < 10 ?
                         <>0{minuteCountUp}</>
@@ -349,7 +349,7 @@ export const Timer = (props) => {
             </>
             :
             // noprep
-            <div className={`timeDisplay ${elapsed ? 'elapsed' : ''} ${format.periods[currentPeriod].hasPOI ? 'timeDisplayWithPoi' : ''}`}>
+            <div className={`timeDisplay ${elapsed ? 'elapsed' : ''} ${format.periods[currentPeriod].hasPOI && isBrowser ? 'timeDisplayWithPoi' : ''}`}>
               {minuteCountUp < 10 ? <>0{minuteCountUp}</> : <>{minuteCountUp}</>}{' '}
               :{' '}
               {secondCountUp < 10 ? <>0{secondCountUp}</> : <>{secondCountUp}</>}
@@ -357,7 +357,7 @@ export const Timer = (props) => {
         }
         {
           format.periods[currentPeriod].hasPOI &&
-          <button className='poiButton' onClick={startOrStopPOI} style={{ marginTop: '-2rem' }}>
+          <button className='poiButton' onClick={startOrStopPOI} style={isBrowser ? { marginTop: '-2rem' } : {}}>
             {poiOn ? poiCount : 'POI'}
           </button>
         }
@@ -371,7 +371,7 @@ export const Timer = (props) => {
           onClick={back}
           disabled={currentPeriod == 0 ? true : false}
         >
-          <i class='fas fa-arrow-left' />
+          <i className='fas fa-arrow-left' />
         </button>
         <button className='startOrStop actionButton' onClick={startOrStop}>
           {!running ? 'START' : 'STOP'}
