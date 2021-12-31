@@ -1,6 +1,5 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import ReactGA from 'react-ga'
 import RouteChangeTracker from './RouteChangeTracker'
 import {
   HomePage,
@@ -10,48 +9,45 @@ import {
   MotionDatabase,
   SubmitNewMotion,
   DebateKeeper,
-  About
+  About,
 } from './pages'
 import { NavBar } from './core/components'
 import { useStyles } from './appStyle'
 
-ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_ID_WEB)
 export default function App() {
   const classes = useStyles()
   return (
-    <>
-      <RouteChangeTracker />
-      <Router>
-        <div className={classes['App']}>
-          <NavBar />
-          <Switch>
-            <Route exact={true} path='/'>
-              <HomePage />
-            </Route>
-            <Route path='/generator'>
-              <MotionGenerator />
-            </Route>
-            <Route path='/admin'>
-              <AdminPage />
-            </Route>
-            <Route path='/database'>
-              <MotionDatabase />
-            </Route>
-            <Route path='/new_motion'>
-              <SubmitNewMotion />
-            </Route>
-            <Route path='/break_calculator'>
-              <BreakCalculator />
-            </Route>
-            <Route path='/keeper'>
-              <DebateKeeper />
-            </Route>
-            <Route path='/about'>
-              <About />
-            </Route>
-          </Switch>
-        </div>
-      </Router>
-    </>
+    <Router>
+      <div className={classes['App']}>
+        <RouteChangeTracker />
+        <NavBar />
+        <Switch>
+          <Route exact={true} path='/'>
+            <HomePage />
+          </Route>
+          <Route path='/generator'>
+            <MotionGenerator />
+          </Route>
+          <Route path='/admin'>
+            <AdminPage />
+          </Route>
+          <Route path='/database'>
+            <MotionDatabase />
+          </Route>
+          <Route path='/new_motion'>
+            <SubmitNewMotion />
+          </Route>
+          <Route path='/break_calculator'>
+            <BreakCalculator />
+          </Route>
+          <Route path='/keeper'>
+            <DebateKeeper />
+          </Route>
+          <Route path='/about'>
+            <About />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   )
 }
