@@ -1,2 +1,0 @@
-docker build -t debaters-toolkit:latest .
-docker run --name debaters-toolkit -d -p 3000:3000 debaters-toolkit:latest
