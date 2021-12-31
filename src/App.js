@@ -1,6 +1,5 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import RouteChangeTracker from './RouteChangeTracker'
 import {
   HomePage,
   MotionGenerator,
@@ -19,7 +18,6 @@ export default function App() {
   return (
     <Router>
       <div className={classes['App']}>
-        <RouteChangeTracker />
         <NavBar />
         <Switch>
           <Route exact={true} path='/'>
