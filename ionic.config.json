@@ -1,7 +1,0 @@
-{
-    "name": "Debaters' toolkit",
-    "integrations": {
-      "capacitor": {}
-    },
-    "type": "react"
-  }

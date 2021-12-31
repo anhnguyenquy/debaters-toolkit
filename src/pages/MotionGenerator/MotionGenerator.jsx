@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import ReactGA from 'react-ga'
 import { Helmet } from 'react-helmet'
 import Select from 'react-select'
 import MessengerCustomerChat from 'react-messenger-customer-chat'
@@ -87,6 +88,9 @@ export const MotionGenerator = () => {
       )
     }
   }, [validMotions])
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname)
+  }, [])
   return (
     <div className='motionGenerator'>
       <Helmet>

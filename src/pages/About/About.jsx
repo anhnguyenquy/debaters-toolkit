@@ -1,3 +1,5 @@
+import { useEffect } from 'react'
+import ReactGA from 'react-ga'
 import { Helmet } from 'react-helmet'
 import MessengerCustomerChat from 'react-messenger-customer-chat'
 import { useDeviceBreakPoint } from '../../core/hooks'
@@ -5,6 +7,9 @@ import './style.scss'
 
 export const About = () => {
   const { isPhone, isTablet, isExtraSmall } = useDeviceBreakPoint()
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname)
+  }, [])
   return (
     <div className='about'>
       <Helmet>

@@ -1,6 +1,7 @@
+import { useEffect, useState } from 'react'
+import ReactGA from 'react-ga'
 import Select from 'react-select'
 import { Helmet } from 'react-helmet'
-import { useEffect, useState } from 'react'
 import { firebaseFirestore } from '../../firebase'
 import TextareaAutosize from 'react-textarea-autosize'
 import MessengerCustomerChat from 'react-messenger-customer-chat'
@@ -143,6 +144,9 @@ export const MotionDatabase = () => {
       setMotions([...motions, motion])
     })
   }, [motionData])
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname)
+  }, [])
   return (
     <div className={`motionDatabase ${motions == [] ? 'notLoaded' : ''}`}>
       <Helmet>

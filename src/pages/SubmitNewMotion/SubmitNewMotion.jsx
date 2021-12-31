@@ -1,4 +1,5 @@
-import { useState, useRef } from 'react'
+import { useState, useRef, useEffect } from 'react'
+import ReactGA from 'react-ga'
 import { Helmet } from 'react-helmet'
 import MessengerCustomerChat from 'react-messenger-customer-chat'
 import { useForm } from '../../core/hooks'
@@ -80,6 +81,9 @@ export const SubmitNewMotion = () => {
       changeFormValue('format', val.value)
     }
   }
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname)
+  }, [])
   return (
     <div className='submitNewMotion'>
       <Helmet>

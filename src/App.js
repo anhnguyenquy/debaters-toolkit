@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import RouteChangeTracker from './RouteChangeTracker'
+// import RouteChangeTracker from './RouteChangeTracker'
 import {
   HomePage,
   MotionGenerator,
@@ -9,7 +9,7 @@ import {
   MotionDatabase,
   SubmitNewMotion,
   DebateKeeper,
-  About,
+  About
 } from './pages'
 import { NavBar } from './core/components'
 import { useStyles } from './appStyle'
@@ -19,7 +19,6 @@ export default function App() {
   return (
     <Router>
       <div className={classes['App']}>
-        <RouteChangeTracker />
         <NavBar />
         <Switch>
           <Route exact={true} path='/'>

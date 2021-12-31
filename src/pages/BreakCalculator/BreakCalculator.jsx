@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import ReactGA from 'react-ga'
 import { Helmet } from 'react-helmet'
 import Select from 'react-select'
 import { Result } from './Result'
@@ -44,6 +45,9 @@ export const BreakCalculator = () => {
       }
     }
   }
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname)
+  }, [])
   return (
     <div className='breakCalculator'>
       <Helmet>

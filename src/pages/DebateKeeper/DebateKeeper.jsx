@@ -1,4 +1,5 @@
 import { useEffect } from 'react'
+import ReactGA from 'react-ga'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import { useHistory } from 'react-router'
 import { Helmet } from 'react-helmet'
@@ -22,6 +23,7 @@ export const DebateKeeper = () => {
     if (window.location.pathname == '/keeper') {
       history.push('/keeper/bp')
     }
+    ReactGA.pageview(window.location.pathname)
   }, [])
   return (
     <div className='debateKeeper'>
