@@ -1,13 +1,12 @@
-import { useState, useRef, useEffect } from 'react'
-import ReactGA from 'react-ga'
+import { useState, useRef } from 'react'
 import { Helmet } from 'react-helmet'
+import Select from 'react-select'
 import MessengerCustomerChat from 'react-messenger-customer-chat'
-import { useForm } from '../../core/hooks'
+import { useForm, usePageTracker } from '../../core/hooks'
 import { firebaseFirestore } from '../../firebase'
 import { Message } from '../../core/components'
 import { topics, languages, formats, customTheme } from '../../core/constants'
 import TextareaAutosize from 'react-textarea-autosize'
-import Select from 'react-select'
 import './style.css'
 
 export const SubmitNewMotion = () => {
@@ -81,9 +80,7 @@ export const SubmitNewMotion = () => {
       changeFormValue('format', val.value)
     }
   }
-  useEffect(() => {
-    ReactGA.pageview(window.location.pathname)
-  }, [])
+  usePageTracker()
   return (
     <div className='submitNewMotion'>
       <Helmet>

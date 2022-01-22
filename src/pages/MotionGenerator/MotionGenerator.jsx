@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react'
-import ReactGA from 'react-ga'
 import { Helmet } from 'react-helmet'
 import Select from 'react-select'
 import MessengerCustomerChat from 'react-messenger-customer-chat'
@@ -11,6 +10,7 @@ import {
 import { topicStyle, languageStyle } from './styles'
 import { customTheme, languages, topics } from '../../core/constants'
 import motionsFromDatabase from '../../core/constants/motionsFromDatabase.json' // import separately to avoid netlify error
+import { usePageTracker } from '../../core/hooks'
 import './style.css'
 
 export const MotionGenerator = () => {
@@ -88,9 +88,7 @@ export const MotionGenerator = () => {
       )
     }
   }, [validMotions])
-  useEffect(() => {
-    ReactGA.pageview(window.location.pathname)
-  }, [])
+  usePageTracker()
   return (
     <div className='motionGenerator'>
       <Helmet>

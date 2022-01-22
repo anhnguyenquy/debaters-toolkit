@@ -1,5 +1,4 @@
-import { useState, useEffect } from 'react'
-import ReactGA from 'react-ga'
+import { useState } from 'react'
 import { Helmet } from 'react-helmet'
 import Select from 'react-select'
 import { Result } from './Result'
@@ -12,6 +11,7 @@ import { customTheme } from '../../core/constants'
 import { formatStyle } from './formatStyle'
 import { calculateBreaks } from '../../core/helpers'
 import MessengerCustomerChat from 'react-messenger-customer-chat'
+import { usePageTracker } from '../../core/hooks'
 import './style.css'
 
 export const BreakCalculator = () => {
@@ -45,9 +45,7 @@ export const BreakCalculator = () => {
       }
     }
   }
-  useEffect(() => {
-    ReactGA.pageview(window.location.pathname)
-  }, [])
+  usePageTracker()
   return (
     <div className='breakCalculator'>
       <Helmet>

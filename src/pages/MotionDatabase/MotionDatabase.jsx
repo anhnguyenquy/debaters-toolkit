@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react'
-import ReactGA from 'react-ga'
 import Select from 'react-select'
 import { Helmet } from 'react-helmet'
 import { firebaseFirestore } from '../../firebase'
@@ -21,6 +20,7 @@ import {
   customTheme,
 } from '../../core/constants'
 import tournamentOptions from '../../core/constants/tournamentOptions.json'
+import { usePageTracker } from '../../core/hooks'
 import './style.css'
 
 export const MotionDatabase = () => {
@@ -144,9 +144,7 @@ export const MotionDatabase = () => {
       setMotions([...motions, motion])
     })
   }, [motionData])
-  useEffect(() => {
-    ReactGA.pageview(window.location.pathname)
-  }, [])
+  usePageTracker()
   return (
     <div className={`motionDatabase ${motions == [] ? 'notLoaded' : ''}`}>
       <Helmet>

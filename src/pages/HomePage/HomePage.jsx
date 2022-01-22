@@ -1,6 +1,5 @@
-import { useEffect } from 'react'
-import ReactGA from 'react-ga'
 import { Helmet } from 'react-helmet'
+import MessengerCustomerChat from 'react-messenger-customer-chat'
 import {
   MotionGeneratorIntro,
   MotionDatabaseIntro,
@@ -8,12 +7,10 @@ import {
   DebateKeeperIntro,
 } from './components'
 import { InformationContainer, FacebookChat } from '../../core/components'
-import MessengerCustomerChat from 'react-messenger-customer-chat'
+import { usePageTracker } from '../../core/hooks'
 
 export const HomePage = () => {
-  useEffect(() => {
-    ReactGA.pageview(window.location.pathname)
-  }, [])
+  usePageTracker()
   return (
     <div className='homePage'>
       <Helmet>
