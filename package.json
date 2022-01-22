@@ -9,7 +9,7 @@
     "url": "https://github.com/anhnguyenquy/debaters-toolkit"
   },
   "description": "A toolkit that helps you generate debate motions, calculate break chances and do timekeeping.",
-  "version": "1.4.4",
+  "version": "1.4.5",
   "private": true,
   "dependencies": {
     "@capacitor/android": "^3.3.3",
