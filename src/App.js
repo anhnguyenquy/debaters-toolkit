@@ -4,12 +4,10 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import {
   HomePage,
   MotionGenerator,
-  AdminPage,
   BreakCalculator,
   MotionDatabase,
   SubmitNewMotion,
   DebateKeeper,
-  About
 } from './pages'
 import { NavBar } from './core/components'
 import { useStyles } from './appStyle'
@@ -27,9 +25,6 @@ export default function App() {
           <Route path='/generator'>
             <MotionGenerator />
           </Route>
-          <Route path='/admin'>
-            <AdminPage />
-          </Route>
           <Route path='/database'>
             <MotionDatabase />
           </Route>
@@ -41,9 +36,6 @@ export default function App() {
           </Route>
           <Route path='/keeper'>
             <DebateKeeper />
-          </Route>
-          <Route path='/about'>
-            <About />
           </Route>
         </Switch>
       </div>

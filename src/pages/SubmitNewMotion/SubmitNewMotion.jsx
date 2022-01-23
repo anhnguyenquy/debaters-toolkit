@@ -1,8 +1,7 @@
 import { useState, useRef } from 'react'
 import { Helmet } from 'react-helmet'
 import Select from 'react-select'
-import MessengerCustomerChat from 'react-messenger-customer-chat'
-import { useForm, usePageTracker } from '../../core/hooks'
+import { useForm } from '../../core/hooks'
 import { firebaseFirestore } from '../../firebase'
 import { Message } from '../../core/components'
 import { topics, languages, formats, customTheme } from '../../core/constants'
@@ -80,7 +79,7 @@ export const SubmitNewMotion = () => {
       changeFormValue('format', val.value)
     }
   }
-  usePageTracker()
+  
   return (
     <div className='submitNewMotion'>
       <Helmet>
@@ -91,10 +90,6 @@ export const SubmitNewMotion = () => {
           href='https://www.debaterstoolkit.com/new_motion'
         />
       </Helmet>
-      <MessengerCustomerChat
-        pageId={process.env.REACT_APP_FB_PAGE_ID}
-        appId={process.env.REACT_APP_FB_APP_ID}
-      />
       <div className='top-text'>
         Submit a request for a motion to be added to our Database
       </div>

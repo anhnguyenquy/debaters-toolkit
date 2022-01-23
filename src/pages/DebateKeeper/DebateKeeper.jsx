@@ -12,10 +12,9 @@ import {
   CP,
   CP_PMRE_SPLIT_OPP,
   CP_PMRE,
-  CP_SPLIT_OPP,
+  CP_SPLIT_OPP
 } from './Timer/formats'
 import './style.css'
-import { usePageTracker } from '../../core/hooks'
 
 export const DebateKeeper = () => {
   const history = useHistory()
@@ -24,7 +23,7 @@ export const DebateKeeper = () => {
       history.push('/keeper/bp')
     }
   }, [])
-  usePageTracker()
+  
   return (
     <div className='debateKeeper'>
       <Helmet>

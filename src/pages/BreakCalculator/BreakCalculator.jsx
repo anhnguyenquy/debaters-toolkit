@@ -5,13 +5,11 @@ import { Result } from './Result'
 import {
   Placeholder,
   SingleValue,
-  Option,
+  Option
 } from '../../core/components/SelectComponents'
 import { customTheme } from '../../core/constants'
 import { formatStyle } from './formatStyle'
 import { calculateBreaks } from '../../core/helpers'
-import MessengerCustomerChat from 'react-messenger-customer-chat'
-import { usePageTracker } from '../../core/hooks'
 import './style.css'
 
 export const BreakCalculator = () => {
@@ -45,7 +43,7 @@ export const BreakCalculator = () => {
       }
     }
   }
-  usePageTracker()
+  
   return (
     <div className='breakCalculator'>
       <Helmet>
@@ -56,10 +54,6 @@ export const BreakCalculator = () => {
           href='https://www.debaterstoolkit.com/break_calculator'
         />
       </Helmet>
-      <MessengerCustomerChat
-        pageId={process.env.REACT_APP_FB_PAGE_ID}
-        appId={process.env.REACT_APP_FB_APP_ID}
-      />
       <div className='page-title'>Break Calculator</div>
       <div className='inputs'>
         <input

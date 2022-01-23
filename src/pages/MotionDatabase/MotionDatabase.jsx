@@ -3,7 +3,6 @@ import Select from 'react-select'
 import { Helmet } from 'react-helmet'
 import { firebaseFirestore } from '../../firebase'
 import TextareaAutosize from 'react-textarea-autosize'
-import MessengerCustomerChat from 'react-messenger-customer-chat'
 import {
   Placeholder,
   SingleValue,
@@ -20,7 +19,6 @@ import {
   customTheme,
 } from '../../core/constants'
 import tournamentOptions from '../../core/constants/tournamentOptions.json'
-import { usePageTracker } from '../../core/hooks'
 import './style.css'
 
 export const MotionDatabase = () => {
@@ -144,7 +142,7 @@ export const MotionDatabase = () => {
       setMotions([...motions, motion])
     })
   }, [motionData])
-  usePageTracker()
+  
   return (
     <div className={`motionDatabase ${motions == [] ? 'notLoaded' : ''}`}>
       <Helmet>
@@ -155,10 +153,6 @@ export const MotionDatabase = () => {
         />
         <link rel='canonical' href='https://www.debaterstoolkit.com/database' />
       </Helmet>
-      <MessengerCustomerChat
-        pageId={process.env.REACT_APP_FB_PAGE_ID}
-        appId={process.env.REACT_APP_FB_APP_ID}
-      />
       <div className='pageTitle'>Search for motions from our database:</div>
       <div className='motionFilters'>
         <Select

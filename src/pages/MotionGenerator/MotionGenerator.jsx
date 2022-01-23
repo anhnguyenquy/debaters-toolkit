@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Helmet } from 'react-helmet'
 import Select from 'react-select'
-import MessengerCustomerChat from 'react-messenger-customer-chat'
 import {
   Placeholder,
   SingleValue,
@@ -10,7 +9,6 @@ import {
 import { topicStyle, languageStyle } from './styles'
 import { customTheme, languages, topics } from '../../core/constants'
 import motionsFromDatabase from '../../core/constants/motionsFromDatabase.json' // import separately to avoid netlify error
-import { usePageTracker } from '../../core/hooks'
 import './style.css'
 
 export const MotionGenerator = () => {
@@ -88,7 +86,7 @@ export const MotionGenerator = () => {
       )
     }
   }, [validMotions])
-  usePageTracker()
+  
   return (
     <div className='motionGenerator'>
       <Helmet>
@@ -99,10 +97,6 @@ export const MotionGenerator = () => {
           href='https://www.debaterstoolkit.com/generator'
         />
       </Helmet>
-      <MessengerCustomerChat
-        pageId={process.env.REACT_APP_FB_PAGE_ID}
-        appId={process.env.REACT_APP_FB_APP_ID}
-      />
       <div className='options'>
         <Select
           className='option'

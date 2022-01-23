@@ -1,0 +1,8 @@
+{
+  "appId": "com.anhnguyenquy.debaterstoolkit",
+  "appName": "Debaters' toolkit",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "cordova": {}
+}
