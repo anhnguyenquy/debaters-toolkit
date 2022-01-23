@@ -126,13 +126,20 @@ You will then find the .exe installer inside the 'dist' folder.
 
 ## Android
 
-It is also possible to build a native apk for Debaters' toolkit. First, switch to the 'android' branch.
+It is also possible to build Debaters' toolkit as a native Android application. First, switch to the 'android' branch.
 Then, to generate native Android source code:
 ```sh
 ionic capacitor add android
 ```
-A new 'android' folder will be created. Open that folder with [Android Studio](https://developer.android.com/studio) and build the APK.
+A new 'android' folder will be created.
 
+To update the icons of the Android app, open up your terminal:
+```sh
+cp res android/src/main
+```
+After that, open android/app/src/main/Android Manifest.xml and set android:icon to "@mipmap/debaters_toolkit", android:roundIcon to "@mipmap/debaters_toolkit_round".
+
+Finally, open the 'android' folder with [Android Studio](https://developer.android.com/studio) and build the APK.
 
 
 
