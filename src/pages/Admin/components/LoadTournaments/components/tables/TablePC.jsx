@@ -51,7 +51,7 @@ export const TablePC = (props) => {
                     render: (tournament) => {
                         return (
                             <button className="removeTournamentButton" onClick={() => { del(tournament.id) }}>
-                                <i className="fas fa-times"></i>
+                                <i className="fas fa-times" />
                             </button>
                         )
                     }

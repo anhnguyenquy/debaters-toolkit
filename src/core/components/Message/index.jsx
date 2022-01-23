@@ -20,7 +20,7 @@ export const Message = (props) => {
             {show &&
                 <div className='message'>
                     {
-                        <div>{status == true ? <i className="fas fa-check-circle statusIcon" id="successIcon" color="#abe491"></i> : <i class="fas fa-times-circle statusIcon" id="failureIcon" color="#e49191"></i>}</div>
+                        <div>{status == true ? <i className="fas fa-check-circle statusIcon" id="successIcon" color="#abe491" /> : <i className="fas fa-times-circle statusIcon" id="failureIcon" color="#e49191" />}</div>
                     }
                     <div className="messageBox">
                         {

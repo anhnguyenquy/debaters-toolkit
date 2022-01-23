@@ -133,8 +133,8 @@ export const TableTablet = (props) => {
                     render: (request) => {
                         return (
                             <div className="actionIcons">
-                                <button onClick={() => { addToDatabase(request) }}><i className="fas fa-check actionIcon tick"></i></button>
-                                <button onClick={() => { del(request.id) }}><i className="fas fa-times actionIcon cross"></i></button>
+                                <button onClick={() => { addToDatabase(request) }}><i className="fas fa-check actionIcon tick" /></button>
+                                <button onClick={() => { del(request.id) }}><i className="fas fa-times actionIcon cross" /></button>
                             </div>
                         )
                     }
