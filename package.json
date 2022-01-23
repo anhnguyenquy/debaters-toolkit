@@ -9,7 +9,7 @@
     "url": "https://github.com/anhnguyenquy/debaters-toolkit"
   },
   "description": "A toolkit that helps you generate debate motions, calculate break chances and do timekeeping.",
-  "version": "1.4.4",
+  "version": "1.4.6",
   "private": true,
   "dependencies": {
     "@capacitor/android": "^3.3.3",
@@ -75,8 +75,7 @@
     "eject": "react-scripts eject",
     "dev": "concurrently -k \"cross-env BROWSER=none npm start\" \"npm:electron\"",
     "electron": "wait-on tcp:3000 && electron .",
-    "electron-pack": "electron-builder -c.extraMetadata.main=build/electron.js",
-    "preelectron-pack": "react-scripts build"
+    "electron-pack": "electron-builder -c.extraMetadata.main=build/electron.js"
   },
   "eslintConfig": {
     "extends": [
