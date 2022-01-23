@@ -117,7 +117,21 @@ Then, to start the Electron development server:
 ```sh
 yarn dev
 ```
+To build the .exe installer:
+```sh
+yarn build
+yarn electron-pack
+```
+You will then find the .exe installer inside the 'dist' folder.
 
+## Android
+
+It is also possible to build a native apk for Debaters' toolkit. First, switch to the 'android' branch.
+Then, to generate native Android source code:
+```sh
+ionic capacitor add android
+```
+A new 'android' folder will be created. Open that folder with [Android Studio](https://developer.android.com/studio) and build the APK.
 
 
 
