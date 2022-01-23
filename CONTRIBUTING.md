@@ -135,7 +135,8 @@ A new 'android' folder will be created.
 
 To update the icons of the Android app, open up your terminal:
 ```sh
-cp res android/src/main
+rm -rf android/app/src/main/res
+cp -r res android/app/src/main
 ```
 After that, open android/app/src/main/Android Manifest.xml and set android:icon to "@mipmap/debaters_toolkit", android:roundIcon to "@mipmap/debaters_toolkit_round".
 
