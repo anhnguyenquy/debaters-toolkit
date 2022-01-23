@@ -8,7 +8,7 @@ const navBarConfig = [
 	{
 		tabID: 'home', to: '/', specificTabName: "home", children:
 			<>
-				<i class="fas fa-home"></i>
+				<i className="fas fa-home" />
 			</>
 	},
 	{

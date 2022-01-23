@@ -38,7 +38,7 @@ export const TablePhone = (props) => {
                     render: (motion) => {
                         return (
                             <button className="removeMotionButton" onClick={() => { del(motion.id) }}>
-                                <i className="fas fa-times"></i>
+                                <i className="fas fa-times" />
                             </button>
                         )
                     }

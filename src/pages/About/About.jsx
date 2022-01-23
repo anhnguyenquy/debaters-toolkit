@@ -81,22 +81,22 @@ export const About = () => {
         <div className='icons'>
           <a href='https://www.facebook.com/debaters.toolkit/'>
             <button>
-              <i class='fab fa-facebook-square'></i>
+              <i className='fab fa-facebook-square' />
             </button>
           </a>
           <a href='https://twitter.com/AnhNguyen_ML'>
             <button>
-              <i class='fab fa-twitter-square'></i>
+              <i className='fab fa-twitter-square' />
             </button>
           </a>
           <a href='https://github.com/anhnguyenquy'>
             <button>
-              <i class='fab fa-github-square'></i>
+              <i className='fab fa-github-square' />
             </button>
           </a>
           <a href='https://www.patreon.com/user?u=60734242'>
             <button>
-              <i class='fab fa-patreon'></i>
+              <i className='fab fa-patreon' />
             </button>
           </a>
         </div>
