@@ -8,7 +8,7 @@ import {
   MotionDatabase,
   SubmitNewMotion,
   DebateKeeper,
-  About,
+  About
 } from './pages'
 import { NavBar } from './core/components'
 import { useStyles } from './appStyle'
@@ -43,6 +43,9 @@ export default function App() {
           </Route>
           <Route path='/about'>
             <About />
+          </Route>
+          <Route>
+            <HomePage />
           </Route>
         </Switch>
       </div>

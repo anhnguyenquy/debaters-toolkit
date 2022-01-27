@@ -1,8 +1,10 @@
 import { isBrowser } from 'react-device-detect'
+import { useHistory } from 'react-router'
 import { useStylesPC } from './stylePC'
 import { useStylesMobile } from './styleMobile'
 
 export const InformationContainer = () => {
+  const history = useHistory()
   const classesPC = useStylesPC()
   const classesMobile = useStylesMobile()
   return (
@@ -14,8 +16,8 @@ export const InformationContainer = () => {
       }
     >
       <div className='topLane'>
-        <button>
-          <a href='/about'>ABOUT</a>
+        <button onClick={() => { history.push('/about') }}>
+          ABOUT
         </button>
       </div>
       <div className='midLane'>

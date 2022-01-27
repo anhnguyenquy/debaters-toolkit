@@ -22,15 +22,10 @@ export const useStylesMobile = makeStyles({
 				border: '1px solid white',
 				backgroundColor: 'transparent',
 				fontWeight: 500,
-				'& a': {
-					textDecoration: 'none',
-					color: 'white'
-				},
+				color: 'white',
 				'&:hover': {
 					backgroundColor: 'white',
-					'& a': {
-						color: 'black'
-					}
+					color: 'black'
 				}
 			}
 		},

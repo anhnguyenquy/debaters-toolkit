@@ -1,128 +1,122 @@
 .informationContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #282a35 !important;
+  height: 38vh;
+  min-height: 14.3rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: auto;
+  .topLane {
     width: 100%;
+    height: 20%;
     display: flex;
-    flex-direction: column;
-    background-color: #282a35 !important;
-    height: 38vh;
-    min-height: 14.3rem;
-    font-family: "Source Sans Pro", sans-serif;
-    margin-top: auto;
-    .topLane {
-        width: 100%;
-        height: 20%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        button {
-            padding: 0.3rem;
-            border-radius: 5px;
-            border: 1px solid white;
-            background-color: transparent;
-            font-weight: 500;
-            a {
-                text-decoration: none;
-                color: white;
-            }
-        }
-        button:hover {
-            background-color: white;
-            a {
-                color: black;
-            }
-        }
+    justify-content: center;
+    align-items: center;
+    button {
+      padding: 0.3rem;
+      border-radius: 5px;
+      border: 1px solid white;
+      background-color: transparent;
+      font-weight: 500;
+      color: white;
     }
-    .midLane {
-        width: 100%;
-        height: 20%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        button {
-            background-color: #282a35;
-            border: 1px solid white;
-            border-radius: 5px;
-            padding: 0.4rem;
-            margin-left: 0.2rem;
-            margin-right: 0.2rem;
-            i {
-                color: white;
-                font-size: 2rem;
-            }
-        }
-        button:hover {
-            background-color: white;
-            i {
-                color: black;
-            }
-        }
+    button:hover {
+      background-color: white;
+      color: black;
     }
-    .botLane {
-        width: 100%;
-        height: 60%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        .introText {
-            color: white !important;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            width: 90%;
-            div {
-                margin: 0.5rem;
-                text-align: center;
-                a {
-                    color: white;
-                    span {
-                        text-decoration: underline;
-                    }
-                    span:hover {
-                        color: #4caf50;
-                    }
-                }
-                
-            }
-        }
+  }
+  .midLane {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button {
+      background-color: #282a35;
+      border: 1px solid white;
+      border-radius: 5px;
+      padding: 0.4rem;
+      margin-left: 0.2rem;
+      margin-right: 0.2rem;
+      i {
+        color: white;
+        font-size: 2rem;
+      }
     }
+    button:hover {
+      background-color: white;
+      i {
+        color: black;
+      }
+    }
+  }
+  .botLane {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .introText {
+      color: white !important;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 90%;
+      div {
+        margin: 0.5rem;
+        text-align: center;
+        a {
+          color: white;
+          span {
+            text-decoration: underline;
+          }
+          span:hover {
+            color: #4caf50;
+          }
+        }
+      }
+    }
+  }
 }
 @media only screen and (max-width: 379px) {
-    .informationContainer {
-        height: 47vh;
-        .topLane {
-            height: 12%;
-        }
-        .midLane {
-            height: 10%;
-        }
-        .botLane {
-            height: 78%;
-            margin-bottom: 0.5rem;
-        }
+  .informationContainer {
+    height: 47vh;
+    .topLane {
+      height: 12%;
     }
+    .midLane {
+      height: 10%;
+    }
+    .botLane {
+      height: 78%;
+      margin-bottom: 0.5rem;
+    }
+  }
 }
 @media only screen and (max-width: 425px) and (min-width: 380px) {
-    .informationContainer {
-        height: 40vh;
-        .topLane {
-            height: 17%;
-        }
-        .midLane {
-            height: 13%;
-        }
-        .botLane {
-            height: 70%;
-            margin-bottom: 0.5rem;
-        }
+  .informationContainer {
+    height: 40vh;
+    .topLane {
+      height: 17%;
     }
+    .midLane {
+      height: 13%;
+    }
+    .botLane {
+      height: 70%;
+      margin-bottom: 0.5rem;
+    }
+  }
 }
 @media only screen and (max-width: 768px) and (min-width: 426px) {
-    .informationContainer {
-        height: 25vh;
-        .topLane {
-        }
-        .midLane {
-        }
-        .botLane {
-        }
+  .informationContainer {
+    height: 25vh;
+    .topLane {
     }
+    .midLane {
+    }
+    .botLane {
+    }
+  }
 }
