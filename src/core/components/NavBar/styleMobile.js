@@ -8,6 +8,7 @@ export const useStylesMobile = makeStyles({
 		backgroundColor: '#282a35',
 		fontFamily: '"Source Sans Pro", sans-serif',
 		height: '7vh',
+    minHeight: '7vh',
 		width: '100%',
 		'& .anchor': {
 			color: 'white',

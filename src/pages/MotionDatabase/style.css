@@ -31,7 +31,7 @@
 .motionFilter {
     width: 21rem; /*19*/
     margin: 0.2rem; /*0.2*/
-    font-size: 0.9rem; /*0.75*/ 
+    font-size: 0.8rem !important; /*0.75*/ 
 }
 .motionFilter input {
     font-family: "Lora", serif;
