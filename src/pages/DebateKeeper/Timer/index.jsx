@@ -1,6 +1,6 @@
 import Select from 'react-select'
 import { useEffect, useState } from 'react'
-import { useHistory } from 'react-router'
+import { useNavigate } from 'react-router-dom'
 import { isBrowser } from 'react-device-detect'
 import { customTheme } from '../../../core/constants'
 import { formatList, formatListForPhone } from './formats'
@@ -21,7 +21,7 @@ import { stylePC, styleMobile } from './style'
 export const Timer = (props) => {
   const { format } = props
   const audio = new Audio('/media/bell.m4a')
-  const history = useHistory()
+  const navigate = useNavigate()
   const [running, setRunning] = useState(false)
   const [bell, setBell] = useState(true)
   const [currentPeriod, setCurrentPeriod] = useState(0)
@@ -260,7 +260,7 @@ export const Timer = (props) => {
     }
   }, [elapsed, bell, running, currentPeriod])
   const handleRedirect = (option) => {
-    history.push(option.value)
+    navigate(option.value)
   }
   useEffect(() => {
     totalReset()

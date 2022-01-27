@@ -41,7 +41,8 @@
     "react-helmet": "^6.1.0",
     "react-messenger-customer-chat": "^0.8.0",
     "react-responsive": "^8.2.0",
-    "react-router-dom": "^5.2.0",
+    "react-router": "^6.2.1",
+    "react-router-dom": "^6.2.1",
     "react-scripts": "4.0.3",
     "react-select": "^5.2.1",
     "react-textarea-autosize": "^8.3.3",
@@ -67,7 +68,7 @@
       "icon": "public/media/icons/electron.png"
     }
   },
-  "homepage": "./",
+  "homepage": "https://debaterstoolkit.com",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

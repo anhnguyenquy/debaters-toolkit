@@ -1,6 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-// import RouteChangeTracker from './RouteChangeTracker'
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import {
   HomePage,
   MotionGenerator,
@@ -17,36 +16,23 @@ import { useStyles } from './appStyle'
 export default function App() {
   const classes = useStyles()
   return (
-    <Router>
+    <BrowserRouter>
       <div className={classes['App']}>
         <NavBar />
-        <Switch>
-          <Route exact={true} path='/'>
-            <HomePage />
+        <Routes>
+          <Route exact={true} path='/' element={<HomePage />} />
+          <Route exact={true} path='generator' element={<MotionGenerator />} />
+          <Route exact={true} path='admin' element={<AdminPage />} />
+          <Route exact={true} path='database' element={<MotionDatabase />} />
+          <Route exact={true} path='new_motion' element={<SubmitNewMotion />} />
+          <Route exact={true} path='break_calculator' element={<BreakCalculator />} />
+          <Route path='keeper' element={<DebateKeeper />}>
+            <Route path=':format' element={<DebateKeeper />} />
           </Route>
-          <Route path='/generator'>
-            <MotionGenerator />
-          </Route>
-          <Route path='/admin'>
-            <AdminPage />
-          </Route>
-          <Route path='/database'>
-            <MotionDatabase />
-          </Route>
-          <Route path='/new_motion'>
-            <SubmitNewMotion />
-          </Route>
-          <Route path='/break_calculator'>
-            <BreakCalculator />
-          </Route>
-          <Route path='/keeper'>
-            <DebateKeeper />
-          </Route>
-          <Route path='/about'>
-            <About />
-          </Route>
-        </Switch>
+          <Route exact={true} path='about' element={<About />} />
+          <Route path='*' element={<Navigate to='/' />} />
+        </Routes>
       </div>
-    </Router>
+   </BrowserRouter>
   )
 }

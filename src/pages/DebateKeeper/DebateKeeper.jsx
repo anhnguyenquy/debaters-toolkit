@@ -1,6 +1,5 @@
 import { useEffect } from 'react'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import { useHistory } from 'react-router'
+import { BrowserRouter, Routes, Route, useParams, Navigate } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
 import { Timer } from './Timer'
 import {
@@ -14,14 +13,39 @@ import {
   CP_PMRE,
   CP_SPLIT_OPP,
 } from './Timer/formats'
-import './style.css'
 import { usePageTracker } from '../../core/hooks'
+import './style.css'
+
+const CorrespondingTimer = (props) => {
+  const { format } = props
+  switch (format) {
+    case 'bp':
+      return <Timer format={BP} />
+    case 'wsdc':
+      return <Timer format={WSDC} />
+    case 'ap':
+      return <Timer format={AP} />
+    case 'australs':
+      return <Timer format={Australs} />
+    case 'bp5min':
+      return <Timer format={BP5min} />
+    case 'cp':
+      return <Timer format={CP} />
+    case 'cp_pmre_split_opp':
+      return <Timer format={CP_PMRE_SPLIT_OPP} />
+    case 'cp_pmre':
+      return <Timer format={CP_PMRE} />
+    case 'cp_split_opp':
+      return <Timer format={CP_SPLIT_OPP} />
+  }
+  return <Navigate to='/keeper/bp' />
+}
 
 export const DebateKeeper = () => {
-  const history = useHistory()
+  const { format } = useParams()
   useEffect(() => {
-    if (window.location.pathname == '/keeper') {
-      history.push('/keeper/bp')
+    if (document.getElementById('fb-root')) {
+      document.getElementById('fb-root').remove()
     }
   }, [])
   usePageTracker()
@@ -32,35 +56,7 @@ export const DebateKeeper = () => {
         <meta name='description' content='Do debate timekeeping online.' />
         <link rel='canonical' href='https://www.debaterstoolkit.com/keeper' />
       </Helmet>
-      <Switch>
-        <Route path='/keeper/bp'>
-          <Timer format={BP} />
-        </Route>
-        <Route path='/keeper/wsdc'>
-          <Timer format={WSDC} />
-        </Route>
-        <Route path='/keeper/ap'>
-          <Timer format={AP} />
-        </Route>
-        <Route path='/keeper/australs'>
-          <Timer format={Australs} />
-        </Route>
-        <Route path='/keeper/bp5min'>
-          <Timer format={BP5min} />
-        </Route>
-        <Route path='/keeper/cp'>
-          <Timer format={CP} />
-        </Route>
-        <Route path='/keeper/cp_pmre_split_opp'>
-          <Timer format={CP_PMRE_SPLIT_OPP} />
-        </Route>
-        <Route path='/keeper/cp_pmre'>
-          <Timer format={CP_PMRE} />
-        </Route>
-        <Route path='/keeper/cp_split_opp'>
-          <Timer format={CP_SPLIT_OPP} />
-        </Route>
-      </Switch>
+      <CorrespondingTimer format={format}/>
     </div>
   )
 }

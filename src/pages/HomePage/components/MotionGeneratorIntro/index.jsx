@@ -1,15 +1,15 @@
-import { useHistory } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import './style.scss'
 
 export const MotionGeneratorIntro = () => {
-  const history = useHistory()
+  const navigate = useNavigate()
   return (
     <div className='motionGeneratorInfo'>
       <div className='motionGeneratorTitle'>Motion Generator</div>
       <div className='motionGeneratorSubHeader'>
         Get 1 random motion from over 7000
       </div>
-      <button onClick={() => { history.push('/generator') }}>Get a motion</button>
+      <button onClick={() => { navigate('/generator') }}>Get a motion</button>
     </div>
   )
 }
